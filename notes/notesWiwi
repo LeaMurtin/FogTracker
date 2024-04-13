@@ -1,0 +1,38 @@
+utils.ts
+export function maFonctionDeCalculTropUtile() {
+
+}
+
+import { maFonctionDeCalculTropUtile } from utils
+function toto {
+	const mavar = 0;
+	function tata() {
+		dsqdqs
+		setStqte :
+		dsq
+		dqs
+		dsq
+		dsq
+		
+	}
+	function fdfsd {}
+	tata();
+
+	mavar
+	maFonctionDeCalculTropUtile()
+
+	return affichage
+}
+
+class toto {
+	mavar = 0
+	constructor
+
+
+	...
+	membre() {
+		this.mavar
+	}
+
+	render()
+}

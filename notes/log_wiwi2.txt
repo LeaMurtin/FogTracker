@@ -1,0 +1,752 @@
+Options and seed: affinity coupledminor coupledwarp newgate newgraces openstart pacifist physick req_belfries req_colosseum req_divine req_dungeon req_evergaol req_graveyard req_minorwarp req_underground roundtable shuffle v3 seed:1854666672
+Key item hash: 66683
+
+Mod directories to merge:
+C:\Users\Woli\Desktop\ER Item Randomizer
+
+Connecting paired main edges: 498 outgoing, 498 incoming
+Connecting unpaired main edges: 33 outgoing, 33 incoming
+Main fixup done in 12 tries
+
+
+Clique fixup done in 1
+Done with core pass
+
+Areas before Liurnia: Chapel of Anticipation; Cave of Knowledge - From Seaside Ruins; Cave of Knowledge
+Other areas are not necessary to get there.
+
+This spoiler log lists all accessible areas in order from earliest to latest.
+For each area, it lists ways to enter the area, from earliest to latest.
+Paired warps are only listed once, under the entrance list of whichever area is later.
+
+How to get to an area:
+- Find the area name in the list below.
+- The first indented line below the area name will show the earliest available way to enter it.
+- Repeat this process, going backwards in the list until you find an area you've already visited.
+
+If you're stuck in general, a good strategy is to find the first major boss arena which
+you haven't visited yet and see how to get there. Bosses are marked with <<<<<
+
+Chapel of Anticipation
+Cave of Knowledge - From Seaside Ruins
+  Random: Chapel of Anticipation (before Grafted Scion's arena) --> Cave of Knowledge - From Seaside Ruins (at the back entrance from the Seaside Ruins beach)
+Cave of Knowledge
+  Preexisting: Cave of Knowledge - From Seaside Ruins --> Cave of Knowledge (dropping down)
+  Preexisting: Cave of Knowledge - After Soldier of Godrick --> Cave of Knowledge (dropping down)
+Liurnia
+  Random: Cave of Knowledge (before Soldier of Godrick's arena) --> Liurnia (arriving outside Cuckoo's Evergaol)
+  Random: Divine Tower of Limgrave (using the sending gate in the first half of the Divine Tower of Limgrave) --> Liurnia (arriving in Church of Vows)
+  Preexisting: Liurnia - Caria Manor --> Liurnia (in map)
+  Preexisting: Bellum Highway --> Liurnia (in map)
+  Preexisting: Liurnia Behind Caria Manor --> Liurnia (dropping down from the south edge of the Royal Grave)
+  Random: Valiant Gargoyles (resting in the coffin after defeating the boss) --> Liurnia (arriving at South Raya Lucaria Gate)
+  Random: Divine Tower of Liurnia (opening the door at the bottom of the flipped tower) --> Liurnia (arriving by Northern Liurnia Lake Shore grace before Iji)
+Limgrave - Coastal Cave - Demi-Human Chiefs <<<<<
+  Random: Cave of Knowledge (at the door to Stranded Graveyard) --> Limgrave - Coastal Cave - Demi-Human Chiefs (at the front of Demi-Human Chiefs' arena)
+Volcano Manor - Temple of Eiglay Shortcut Elevator
+  Random: Limgrave - Coastal Cave - Demi-Human Chiefs (at the back of Demi-Human Chiefs' arena) --> Volcano Manor - Temple of Eiglay Shortcut Elevator (after Godskin Noble's arena to the back left, down the shortcut elevator)
+  Preexisting: Volcano Manor after Temple of Eiglay --> Volcano Manor - Temple of Eiglay Shortcut Elevator (unlocking the elevator shortcut back to the temple)
+Roundtable Hold
+  Preexisting: Chapel of Anticipation --> Roundtable Hold (accessing an overworld grace)
+Bellum Highway
+  Preexisting: Liurnia --> Bellum Highway (in map)
+Liurnia - Caria Manor
+  Preexisting: Liurnia --> Liurnia - Caria Manor (in map)
+  Preexisting: Liurnia Behind Caria Manor --> Liurnia - Caria Manor (dropping down into the manor by Pidia)
+Dragonlord Placidusax <<<<<
+  Random: Liurnia (using the sending gate from the gazebo straight east of Raya Lucaria South Entrance) --> Dragonlord Placidusax (arriving in Placidusax's arena)
+Ashen Leyndell
+  Random: Liurnia (using the sending gate in Laskyar Ruins or Purified Ruins) --> Ashen Leyndell (warp to the start of Ashen Leyndell)
+  Preexisting: Ashen Leyndell - Queen's Bedchamber --> Ashen Leyndell (instead of entering the sanctuary, dropping down to the right)
+Subterranean Shunning-Grounds
+  Random: Liurnia (using South Raya Lucaria Gate) --> Subterranean Shunning-Grounds (at the entrance to Leyndell Catacombs at the bottom of the room with the pipes), using an item from Liurnia
+  Preexisting: Subterranean Shunning-Grounds - Ashen Capital Dropdown --> Subterranean Shunning-Grounds (dropping down)
+  Preexisting: Subterranean Shunning-Grounds - From Royal Capital --> Subterranean Shunning-Grounds (opening the one-way door)
+Nokron - Aqueduct-Facing Cliffs Room
+  Random: Liurnia (entering Malefactor's Evergaol) --> Nokron - Aqueduct-Facing Cliffs Room (after Valiant Gargoyles in the small room next to the main entrance)
+Capital Outskirts - Auriza Hero's Grave - Crucible Knight Ordovis <<<<<
+  Random: Liurnia (at the Stormveil Castle rear exit) --> Capital Outskirts - Auriza Hero's Grave - Crucible Knight Ordovis (at the front of Crucible Knight Ordovis' arena)
+Caelid - Caelem Ruins - After Boss
+  Random: Liurnia (at the entrance to Raya Lucaria Crystal Tunnel) --> Caelid - Caelem Ruins - After Boss (after Mad Pumpkin Heads' arena in Caelem Ruins)
+Shaded Castle - Elemer of the Briar <<<<<
+  Random: Liurnia (at the entrance to Carian Study Hall) --> Shaded Castle - Elemer of the Briar (at the front of Elemer of the Briar's arena)
+Loretta, Knight of the Haligtree <<<<<
+  Random: Liurnia (at the Ruin-Strewn Precipice entrance) --> Loretta, Knight of the Haligtree (at the front of Loretta's arena)
+Divine Tower of Limgrave
+  Random: Liurnia (at the entrance to Road's End Catacombs) --> Divine Tower of Limgrave (at the entrance from Stormveil Castle)
+After Commander Niall
+  Random: Liurnia (at the entrance to Academy Crystal Cave, with Stonesword Key) --> After Commander Niall (after Commander Niall's arena)
+Capital Outskirts - Auriza Side Tomb - Main Jail
+  Random: Liurnia (before Royal Revenant's arena in Kingsrealm Ruins) --> Capital Outskirts - Auriza Side Tomb - Main Jail (arriving in the main jail)
+Stormhill - Deathtouched Catacombs - Black Knife Assassin <<<<<
+  Random: Liurnia (at the entrance to Lakeside Crystal Cave) --> Stormhill - Deathtouched Catacombs - Black Knife Assassin (at the front of Black Knife Assassin's arena)
+Caelid - Sellia Chair-Crypt - After Boss
+  Random: Liurnia (at the Ainsel River Well) --> Caelid - Sellia Chair-Crypt - After Boss (after Nox Duo's arena in Sellia Chair-Crypt)
+Altus Plateau - Sage's Cave - Black Knife Assassin <<<<<
+  Random: Liurnia (at the entrance to Stillwater Cave) --> Altus Plateau - Sage's Cave - Black Knife Assassin (at the front of Black Knife Assassin's arena)
+Capital Outskirts - Auriza Side Tomb - Grave Warden Duelist <<<<<
+  Random: Liurnia (at the entrance to Cliffbottom Catacombs) --> Capital Outskirts - Auriza Side Tomb - Grave Warden Duelist (at the front of Grave Warden Duelist's arena)
+Dragonbarrow Cave - Beastmen of Farum Azula <<<<<
+  Random: Liurnia (at the entrance to Black Knife Catacombs) --> Dragonbarrow Cave - Beastmen of Farum Azula (at the front of Beastmen of Farum Azula's arena)
+Weeping Peninsula - Weeping Evergaol - Ancient Hero of Zamor <<<<<
+  Random: Liurnia (along the side path from Stormhill) --> Weeping Peninsula - Weeping Evergaol - Ancient Hero of Zamor (arriving in Weeping Evergaol)
+Limgrave
+  Random: Roundtable Hold (in Roundtable Hold in the main room) --> Limgrave (at the entrance to Coastal Cave)
+  Random: Academy of Raya Lucaria (getting abducted at the bottom of the elevator. this requires dying in the bottom 30 meters, not above that) --> Limgrave (arriving in the middle of Mistwood)
+  Preexisting: Caelid - After Gaol Cave --> Limgrave (dropping down)
+  Preexisting: Stormhill --> Limgrave (in map)
+  Preexisting: Weeping Peninsula --> Limgrave (in map)
+  Preexisting: Caelid --> Limgrave (in map)
+Nokron - Aqueduct-Facing Cliffs
+  Preexisting: Nokron - Aqueduct-Facing Cliffs Room --> Nokron - Aqueduct-Facing Cliffs (dropping down the small waterfall)
+  Preexisting: Nokron - Ancestral Woods --> Nokron - Aqueduct-Facing Cliffs (dropping down past Aqueduct-Facing Cliffs grace)
+Caelid - Caelem Ruins - Mad Pumpkin Heads <<<<<
+  Random: Liurnia - Caria Manor (before Loretta's arena) --> Caelid - Caelem Ruins - Mad Pumpkin Heads (at the front of Mad Pumpkin Heads' arena)
+Ashen Leyndell - South of Erdtree Sanctuary
+  Preexisting: Ashen Leyndell --> Ashen Leyndell - South of Erdtree Sanctuary (dropping down to the right of the sanctuary entrance from the elevator)
+Subterranean Shunning-Grounds - Ashen Capital Dropdown
+  Preexisting: Ashen Leyndell --> Subterranean Shunning-Grounds - Ashen Capital Dropdown (dropping down through the open sewer grate)
+Flame Peak - Giant-Conquering Hero's Grave - Ancient Hero of Zamor <<<<<
+  Random: Ashen Leyndell (at the front entrance to Gideon's arena) --> Flame Peak - Giant-Conquering Hero's Grave - Ancient Hero of Zamor (at the front of Ancient Hero of Zamor's arena)
+Stormhill - Stormhill Evergaol - Crucible Knight <<<<<
+  Random: Ashen Leyndell (at the Ashen Capital entrance from Capital Rampart) --> Stormhill - Stormhill Evergaol - Crucible Knight (arriving in Stormhill Evergaol)
+Regal Ancestor Spirit <<<<<
+  Random: Ashen Leyndell (at the entrance to Royal Colosseum) --> Regal Ancestor Spirit (at the front of Regal Ancestor Spirit's arena)
+Weeping Peninsula - Morne Tunnel
+  Random: Subterranean Shunning-Grounds (before Mohg's arena) --> Weeping Peninsula - Morne Tunnel (at the entrance from Weeping Peninsula)
+Altus Plateau - Sage's Cave
+  Random: Nokron - Aqueduct-Facing Cliffs (before Valiant Gargoyles' arena) --> Altus Plateau - Sage's Cave (before Black Knife Assassin's arena)
+Ainsel River Main
+  Random: Ashen Leyndell - South of Erdtree Sanctuary (at the side entrance to Gideon's arena from the branches) --> Ainsel River Main (in the tunnel leading to Ainsel River Downstream)
+  Preexisting: Lake of Rot --> Ainsel River Main (in map)
+  Random: Liurnia (using the 1st Belfry labeled Crumbling Lands) --> Ainsel River Main (arriving at the start of Ainsel River Main), using items from Godrick the Grafted; Altus Plateau; Mountaintops of the Giants
+Liurnia - Raya Lucaria Crystal Tunnel
+  Random: Caelid - Caelem Ruins - Mad Pumpkin Heads (at the back of Mad Pumpkin Heads' arena) --> Liurnia - Raya Lucaria Crystal Tunnel (before Crystalian's arena)
+Mohg, Lord of Blood <<<<<
+  Random: Weeping Peninsula - Morne Tunnel (before Scaly Misbegotten's arena) --> Mohg, Lord of Blood (at the front of Mohg's arena)
+Liurnia - Lakeside Crystal Cave
+  Random: Altus Plateau - Sage's Cave (before Necromancer Garris' arena) --> Liurnia - Lakeside Crystal Cave (at the entrance from Liurnia)
+Liurnia - Road's End Catacombs
+  Random: Altus Plateau - Sage's Cave (at the entrance from Altus Plateau) --> Liurnia - Road's End Catacombs (at the entrance from Liurnia)
+Lake of Rot
+  Preexisting: Ainsel River Main --> Lake of Rot (in map)
+Fire Giant <<<<<
+  Random: Loretta, Knight of the Haligtree (at back of Loretta's arena) --> Fire Giant (in the right front of Fire Giant's arena, farther from the forge)
+Stormhill
+  Preexisting: Limgrave --> Stormhill (in map)
+Weeping Peninsula
+  Preexisting: Limgrave --> Weeping Peninsula (in map)
+  Preexisting: Weeping Peninsula - Castle Morne --> Weeping Peninsula (in map)
+Caelid
+  Preexisting: Limgrave --> Caelid (in map)
+  Preexisting: Castle Redmane --> Caelid (in map)
+  Preexisting: Dragonbarrow --> Caelid (in map)
+  Preexisting: Caelid Greatjar --> Caelid (dropping down south of Deep Siofra Well)
+  Random: Before Radahn (using the Sending Gate before Starscourge Radahn) --> Caelid (arriving at the east side of Impassable Greatbridge)
+Leyndell
+  Random: Limgrave (opening the transporter chest in Dragon-Burnt Ruins in Agheel Lake) --> Leyndell (arriving at the start of Leyndell from Deeproot)
+  Preexisting: Leyndell - Erdtree Sanctuary Stairs --> Leyndell (dropping down, like near Bolt of Gransax)
+Consecrated Snowfield Catacombs - Putrid Grave Warden Duelist <<<<<
+  Random: Limgrave (entering Forlorn Hound Evergaol) --> Consecrated Snowfield Catacombs - Putrid Grave Warden Duelist (at the front of Putrid Grave Warden Duelist's arena)
+Volcano Manor - Audience Pathway
+  Random: Limgrave (using the sending gate north of Third Church of Marika) --> Volcano Manor - Audience Pathway (arriving at Audience Pathway)
+Liurnia - Road's End Catacombs - Spiritcaller Snail <<<<<
+  Random: Limgrave (at the entrance from Stranded Graveyard) --> Liurnia - Road's End Catacombs - Spiritcaller Snail (at the front of Spiritcaller Snail's arena)
+Caelid - Sellia Crystal Tunnel - Fallingstar Beast <<<<<
+  Random: Limgrave (at the entrance to Groveside Cave) --> Caelid - Sellia Crystal Tunnel - Fallingstar Beast (at the front of Fallingstar Beast's arena)
+After Castle Redmane Boss
+  Random: Limgrave (at the rear exit to Limgrave after the one-way door) --> After Castle Redmane Boss (after Redmane Castle Plaza)
+Divine Tower of East Altus - Fell Twins <<<<<
+  Random: Limgrave (at the entrance to Stormfoot Catacombs) --> Divine Tower of East Altus - Fell Twins (inside the Fell Twins' arena)
+Liurnia - Cuckoo's Evergaol - Bols, Carian Knight <<<<<
+  Random: Limgrave (at the back entrance to Stranded Graveyard from the Seaside Ruins beach) --> Liurnia - Cuckoo's Evergaol - Bols, Carian Knight (arriving in Cuckoo's Evergaol)
+Liurnia - Black Knife Catacombs - Cemetery Shade <<<<<
+  Random: Limgrave (at the entrance to Murkwater Cave) --> Liurnia - Black Knife Catacombs - Cemetery Shade (at the front of Cemetery Shade's arena)
+Altus Plateau - Lux Ruins - Demi-Human Queen Gilika <<<<<
+  Random: Limgrave (at the entrance to Murkwater Catacombs) --> Altus Plateau - Lux Ruins - Demi-Human Queen Gilika (at the back of Demi-Human Queen Gilika's arena)
+Ancestor Spirit <<<<<
+  Random: Limgrave (at the entrance to Highroad Cave) --> Ancestor Spirit (at the front of Ancestor Spirit's arena)
+Ashen Leyndell - before Divine Tower
+  Random: Limgrave (before Mad Pumpkin Head's arena in Waypoint Ruins) --> Ashen Leyndell - before Divine Tower (at the base of the elevator to the Divine Tower of East Altus)
+Liurnia - Stillwater Cave
+  Random: Limgrave (at the Siofra River Well) --> Liurnia - Stillwater Cave (before Cleanrot Knight's arena)
+Divine Tower of Caelid
+  Random: Liurnia - Raya Lucaria Crystal Tunnel (at the entrance from Liurnia) --> Divine Tower of Caelid (up the stairs to Caelid Divine Tower's Two Fingers)
+Castle Redmane Boss <<<<<
+  Preexisting: After Castle Redmane Boss --> Castle Redmane Boss (dropping down past Jerren's platform)
+  Random: After Castle Redmane Boss (at the bottom of the elevator before the Radahn warp) --> Castle Redmane Boss (at the back of Redmane Castle Plaza)
+Academy of Raya Lucaria
+  Random: Liurnia - Lakeside Crystal Cave (before Bloodhound Knight's arena) --> Academy of Raya Lucaria (before Red Wolf's arena)
+  Preexisting: Academy of Raya Lucaria Rooftops --> Academy of Raya Lucaria (completing the loop back to the Church of Cuckoo)
+  Preexisting: Academy of Raya Lucaria Main Entrance --> Academy of Raya Lucaria (opening the doors to the Church of Cuckoo)
+Haligtree Town
+  Random: Liurnia - Road's End Catacombs (before Spiritcaller Snail's arena) --> Haligtree Town (before Loretta's arena)
+  Random: Farum Azula Rooftop and Bridge (lying down in front of the tempest below the great bridge) --> Haligtree Town (arriving at the start of Haligtree)
+Nokron - Ancestral Woods
+  Random: Lake of Rot (resting in the coffin at the bottom of the Grand Cloister) --> Nokron - Ancestral Woods (arriving at the Ancestral Woods grace)
+Castle Redmane
+  Random: Altus Plateau - Lux Ruins - Demi-Human Queen Gilika (at the front of Demi-Human Queen Gilika's arena) --> Castle Redmane (before Redmane Castle Plaza)
+  Preexisting: Caelid --> Castle Redmane (in map)
+Leyndell - Divine Bridge
+  Preexisting: Leyndell --> Leyndell - Divine Bridge (taking the elevator from Fortified Manor)
+  Random: Leyndell - Divine Bridge (using the sending gate after unlocking the elevator in Leyndell or unlocking Ashen Divine Bridge) --> Leyndell - Divine Bridge (arriving from the Tower of Return)
+Leyndell - before Divine Tower
+  Preexisting: Leyndell --> Leyndell - before Divine Tower (opening the heavy door below East Capital Rampart)
+Limgrave - Murkwater Catacombs - Grave Warden Duelist <<<<<
+  Random: Leyndell (before Godfrey's arena from the branches) --> Limgrave - Murkwater Catacombs - Grave Warden Duelist (at the front of Grave Warden Duelist's arena)
+Limgrave - Groveside Cave - Beastman of Farum Azula <<<<<
+  Random: Leyndell (at the entrance to Royal Colosseum) --> Limgrave - Groveside Cave - Beastman of Farum Azula (at the front of Beastman of Farum Azula's arena)
+After Dragonkin Soldier of Nokstella
+  Random: Leyndell (at the Leyndell entrance from Capital Rampart) --> After Dragonkin Soldier of Nokstella (after Dragonkin of Nokstella)
+Divine Tower of Caelid - After Godskin Apostle
+  Random: Leyndell (at the entrance to Subterranean Shunning-Grounds) --> Divine Tower of Caelid - After Godskin Apostle (after Godskin Apostle's arena)
+Farum Azula - Dragon Temple Transept
+  Random: Volcano Manor - Audience Pathway (before Rykard's arena) --> Farum Azula - Dragon Temple Transept (up the stairs from Dragon Temple Transept)
+  Preexisting: Farum Azula - Dragon Temple --> Farum Azula - Dragon Temple Transept (jumping to the stairs west of the Dragon Temple grace and dropping down again)
+Leyndell Catacombs
+  Random: Liurnia - Stillwater Cave (at the entrance from Liurnia) --> Leyndell Catacombs (at the entrance from Subterranean Shunning-Grounds)
+Consecrated Snowfield - Ordina Evergaol
+  Random: Divine Tower of Caelid (before Godskin Apostle's arena) --> Consecrated Snowfield - Ordina Evergaol (arriving in Ordina Evergaol)
+Liurnia - Cliffbottom Catacombs - Erdtree Burial Watchdog <<<<<
+  Random: Divine Tower of Caelid (at the left exit to Dragonbarrow, facing north) --> Liurnia - Cliffbottom Catacombs - Erdtree Burial Watchdog (at the front of Erdtree Burial Watchdog's arena)
+Caelid - After Gaol Cave
+  Random: Divine Tower of Caelid (at the middle exit to Dragonbarrow) --> Caelid - After Gaol Cave (after Frenzied Duelist's arena)
+Nokron from Limgrave
+  Random: Divine Tower of Caelid (at the right exit to Dragonbarrow, facing north) --> Nokron from Limgrave (at the start of Nokron from Limgrave)
+Nokron - Night's Sacred Grounds
+  Preexisting: Nokron - Ancestral Woods --> Nokron - Night's Sacred Grounds (dropping down south of the Ancestral Grounds grace)
+Nokron to Siofra Path
+  Preexisting: Nokron - Ancestral Woods --> Nokron to Siofra Path (dropping down below the east-side bridge)
+  Random: Volcano Manor - Room Before Sending Gate (using the Sending Gate after Volcano Manor temple) --> Nokron to Siofra Path (arriving at the lake between Nokron and lower Siofra)
+Siofra River via Belfries
+  Random: Nokron - Ancestral Woods (using Horned Remains in Nokron) --> Siofra River via Belfries (arriving in the isolated section of Nokron)
+Caelid - Gael Tunnel Start
+  Random: Nokron - Ancestral Woods (after Mimic Tear's arena) --> Caelid - Gael Tunnel Start (at the entrance from Caelid)
+Caelid - Gael Tunnel
+  Preexisting: Caelid - Gael Tunnel Start --> Caelid - Gael Tunnel (dropping down)
+Elphael, Brace of the Haligtree
+  Random: Mohg, Lord of Blood (at the back left of Mohg's arena) --> Elphael, Brace of the Haligtree (before Malenia's arena)
+Nokron before Mimic Tear
+  Preexisting: Nokron from Limgrave --> Nokron before Mimic Tear (dropping down to the first Nokron grace)
+  Random: Consecrated Snowfield (entering Ordina Evergaol) --> Nokron before Mimic Tear (before Mimic Tear's arena)
+Siofra River before Ancestor Spirit
+  Random: Leyndell - before Divine Tower (at the base of the elevator to the Divine Tower of East Altus) --> Siofra River before Ancestor Spirit (before Ancestor Spirit's arena)
+  Random: Deeproot Depths (resting in the coffin by the Nameless Eternal City grace) --> Siofra River before Ancestor Spirit (arriving in the area before Ancestor Spirit's arena)
+Capital Outskirts - Sealed Tunnel Before Boss
+  Random: Leyndell Catacombs (before Esgar, Priest of Blood's arena) --> Capital Outskirts - Sealed Tunnel Before Boss (before Onyx Lord's arena)
+  Preexisting: Capital Outskirts - Sealed Tunnel --> Capital Outskirts - Sealed Tunnel Before Boss (dropping down)
+Before Astel, Naturalborn of the Void
+  Random: Nokron - Night's Sacred Grounds (using the sending gate before the Fingerslayer Blade chest) --> Before Astel, Naturalborn of the Void (arriving in the area before Astel's arena)
+Siofra River
+  Preexisting: Nokron to Siofra Path --> Siofra River (dropping down to the north)
+Caelid - Rear Gael Tunnel
+  Preexisting: Caelid - Gael Tunnel --> Caelid - Rear Gael Tunnel (opening the door)
+Capital Outskirts - Auriza Side Tomb - Dupe First Floor
+  Random: Caelid - Gael Tunnel (before Magma Wyrm's arena) --> Capital Outskirts - Auriza Side Tomb - Dupe First Floor (arriving at the chest behind the illusory wall)
+  Preexisting: Capital Outskirts - Auriza Side Tomb - Dupe Entrance --> Capital Outskirts - Auriza Side Tomb - Dupe First Floor (dropping down)
+  Preexisting: Capital Outskirts - Auriza Side Tomb - Dupe Second Floor --> Capital Outskirts - Auriza Side Tomb - Dupe First Floor (dropping down)
+Ashen Leyndell - Behind Erdtree Sanctuary
+  Random: Before Astel, Naturalborn of the Void (before Astel's arena) --> Ashen Leyndell - Behind Erdtree Sanctuary (outside of Gideon's arena at the center back exit)
+  Preexisting: Ashen Leyndell - Queen's Bedchamber --> Ashen Leyndell - Behind Erdtree Sanctuary (instead of entering the sanctuary, dropping down to the left)
+Mountaintops of the Giants
+  Random: Ashen Leyndell - Behind Erdtree Sanctuary (outside of Gideon's arena at the leftmost back exit, the one without the branch) --> Mountaintops of the Giants (arriving at Mountaintops of the Giants at the Grand Lift of Rold)
+  Preexisting: Flame Peak --> Mountaintops of the Giants (in map)
+  Preexisting: Castle Sol --> Mountaintops of the Giants (in map)
+Altus Plateau - Sainted Hero's Grave
+  Random: Caelid - Rear Gael Tunnel (at the Gael Tunnel rear exit, North of the Third Church of Marika) --> Altus Plateau - Sainted Hero's Grave (at the entrance from Altus Plateau)
+Capital Outskirts - Auriza Side Tomb - Main First Floor
+  Random: Ashen Leyndell - Behind Erdtree Sanctuary (outside of Gideon's arena at the rightmost back exit, the one with the branch) --> Capital Outskirts - Auriza Side Tomb - Main First Floor (arriving at the chest before the main hallway)
+  Preexisting: Capital Outskirts - Auriza Side Tomb - Dupe Jail and Lever --> Capital Outskirts - Auriza Side Tomb - Main First Floor (dropping down after climbing the ladder)
+  Preexisting: Capital Outskirts - Auriza Side Tomb --> Capital Outskirts - Auriza Side Tomb - Main First Floor (dropping down)
+  Preexisting: Capital Outskirts - Auriza Side Tomb - Main Second Floor --> Capital Outskirts - Auriza Side Tomb - Main First Floor (dropping down)
+Consecrated Snowfield
+  Random: Fire Giant (burning the erdtree at the Forge of the Giants, or repeating the warp using the grace) --> Consecrated Snowfield (arriving near Consecrated Snowfield Minor Erdtree)
+Leyndell - Elden Throne <<<<<
+  Random: Fire Giant (in the left front of Fire Giant's arena, closer to the forge) --> Leyndell - Elden Throne (at the back of Morgott's arena)
+Hidden Path to the Haligtree - Stray Mimic Tear <<<<<
+  Random: Stormhill (entering Stormhill Evergaol) --> Hidden Path to the Haligtree - Stray Mimic Tear (at the front of Stray Mimic Tear's arena)
+Before Volcano Manor Entrance
+  Random: Stormhill (before Margit's arena) --> Before Volcano Manor Entrance (at the doorway from Mt. Gelmir)
+Limgrave - Murkwater Cave - Patches <<<<<
+  Random: Stormhill (along the side path to Liurnia. go backwards by double-jumping to a Torrent-sized nook to the left of the ruined bridge pillar) --> Limgrave - Murkwater Cave - Patches (at the front of Patches' arena)
+Caelid - Abandoned Cave Start
+  Random: Stormhill (at the entrance to Limgrave Colosseum) --> Caelid - Abandoned Cave Start (at the entrance from Caelid)
+Weeping Peninsula - Earthbore Cave - Runebear <<<<<
+  Random: Stormhill (at the entrance to Deathtouched Catacombs) --> Weeping Peninsula - Earthbore Cave - Runebear (at the front of Runebear's arena)
+Weeping Peninsula - Castle Morne
+  Preexisting: Weeping Peninsula --> Weeping Peninsula - Castle Morne (in map)
+Divine Tower of Liurnia Interior
+  Random: Weeping Peninsula (opening the transporter chest atop the Tower of Return) --> Divine Tower of Liurnia Interior (arriving after the Carian Study Hall door)
+Stormveil Castle Throne Room
+  Random: Weeping Peninsula (entering Weeping Evergaol) --> Stormveil Castle Throne Room (at the rear exit to Liurnia)
+  Preexisting: Godrick the Grafted --> Stormveil Castle Throne Room (opening the door after the boss)
+Altus Plateau - Perfumer's Grotto - Omenkiller and Miranda the Blighted Bloom <<<<<
+  Random: Weeping Peninsula (at the entrance to Tombsward Cave) --> Altus Plateau - Perfumer's Grotto - Omenkiller and Miranda the Blighted Bloom (at the front of Omenkiller and Miranda the Blighted Bloom's arena)
+Academy of Raya Lucaria - Grand Library <<<<<
+  Random: Weeping Peninsula (at the entrance to Morne Tunnel) --> Academy of Raya Lucaria - Grand Library (at the front of Rennala's arena)
+Caelid - War-Dead Catacombs - Putrid Tree Spirit <<<<<
+  Random: Weeping Peninsula (at the entrance to Tombsward Catacombs) --> Caelid - War-Dead Catacombs - Putrid Tree Spirit (at the front of Putrid Tree Spirit's arena)
+Mountaintops of the Giants - Lord Contender's Evergaol - Roundtable Knight Vyke <<<<<
+  Random: Weeping Peninsula (at the entrance to Earthbore Cave) --> Mountaintops of the Giants - Lord Contender's Evergaol - Roundtable Knight Vyke (arriving in Lord Contender's Evergaol)
+Mimic Tear <<<<<
+  Random: Weeping Peninsula (at the entrance to Impaler's Catacombs) --> Mimic Tear (at the side exit of Mimic Tear's arena)
+Dragonbarrow
+  Preexisting: Caelid --> Dragonbarrow (in map)
+  Random: Maliketh the Black Blade (warp after defeathing Maliketh, or repeating the warp using the grace) --> Dragonbarrow (arriving outside Bestial Sanctum)
+Mohgwyn Palace
+  Random: Caelid (using the sending gate atop Fort Gael) --> Mohgwyn Palace (arriving by the Palace Approach grace)
+  Random: Liurnia (using the 2nd Belfry labeled Precipice of Anticipation) --> Mohgwyn Palace (arriving in the starting cave), using items from Godrick the Grafted; Altus Plateau; Mountaintops of the Giants
+Academy of Raya Lucaria - After Academy Crystal Cave
+  Random: Caelid (at the entrance to Minor Erdtree Catacombs) --> Academy of Raya Lucaria - After Academy Crystal Cave (after Academy Crystal Cave boss)
+Weeping Peninsula - Morne Tunnel - Scaly Misbegotten <<<<<
+  Random: Caelid (at the entrance to Caelid Catacombs) --> Weeping Peninsula - Morne Tunnel - Scaly Misbegotten (at the front of Scaly Misbegotten's arena)
+Dragonbarrow - Sellia Evergaol - Battlemage Hugues <<<<<
+  Random: Caelid (at the entrance to Gael Tunnel Start) --> Dragonbarrow - Sellia Evergaol - Battlemage Hugues (arriving in Sellia Evergaol)
+Farum Azula - Dragon Temple Lift
+  Random: Caelid (at the entrance to Gaol Cave, with Stonesword Key) --> Farum Azula - Dragon Temple Lift (down the elevator from Dragon Temple Lift grace)
+Limgrave - Coastal Cave
+  Random: Caelid (before Mad Pumpkin Heads' arena in Caelem Ruins) --> Limgrave - Coastal Cave (before Demi-Human Chiefs' arena)
+Caelid - Minor Erdtree Catacombs - Erdtree Burial Watchdogs <<<<<
+  Random: Caelid (before Nox Duo's arena in Sellia Chair-Crypt) --> Caelid - Minor Erdtree Catacombs - Erdtree Burial Watchdogs (at the front of Erdtree Burial Watchdogs' arena)
+Volcano Manor Prison Town Church
+  Random: Caelid (at the entrance to Sellia Crystal Tunnel) --> Volcano Manor Prison Town Church (behind the altar coming from the manor)
+Caelid - Abandoned Cave - Cleanrot Knights <<<<<
+  Random: Caelid (at the entrance to Abandoned Cave) --> Caelid - Abandoned Cave - Cleanrot Knights (at the front of Cleanrot Knights' arena)
+After Loretta, Knight of the Haligtree
+  Preexisting: Elphael, Brace of the Haligtree --> After Loretta, Knight of the Haligtree (at the start of Elphael)
+Volcano Manor Entrance
+  Preexisting: Before Volcano Manor Entrance --> Volcano Manor Entrance (opening the first door into Volcano Manor)
+  Preexisting: Volcano Manor - Hallway Opposite Sending Gate --> Volcano Manor Entrance (using a Stonesword Key, dropping down, and opening a door)
+Farum Azula - Crumbling Beast Grave Depths
+  Preexisting: Farum Azula - Crumbling Beast Grave --> Farum Azula - Crumbling Beast Grave Depths (dropping down after Crumbling Beast Grave grace)
+  Preexisting: Farum Azula - Dragon Temple Lift --> Farum Azula - Crumbling Beast Grave Depths (completing the path atop floating debris)
+Volcano Manor Prison Town
+  Preexisting: Volcano Manor Prison Town Church --> Volcano Manor Prison Town (opening the door)
+  Preexisting: Volcano Manor - Hallway Opposite Sending Gate --> Volcano Manor Prison Town (using a Stonesword Key and dropping down)
+  Random: Liurnia (using the 3rd Belfry labeled Night Sky Unceasing) --> Volcano Manor Prison Town (arriving in Volcano Manor after abduction. get to the main town by hopping across two lava streams then jumping off the southewst edge into the lava below), using items from Godrick the Grafted; Altus Plateau; Mountaintops of the Giants
+Caelid - Sellia Chair-Crypt - Nox Duo <<<<<
+  Random: After Loretta, Knight of the Haligtree (after Loretta's arena) --> Caelid - Sellia Chair-Crypt - Nox Duo (at the front of Nox Duo's arena)
+Liurnia Behind Caria Manor
+  Random: Siofra River (using the sending gate after the Siofra River Bank grace) --> Liurnia Behind Caria Manor (arriving outside Royal Grave Evergaol)
+Divine Tower of West Altus
+  Random: Siofra River (using the sending gate after the Worshippers' Woods grace) --> Divine Tower of West Altus (after Sealed Tunnel boss)
+Divine Tower of Limgrave after Sending Gate
+  Random: Siofra River (using the sending gate atop rubble before the Worshippers' Woods grace) --> Divine Tower of Limgrave after Sending Gate (arriving in the second half of the Divine Tower of Limgrave)
+Farum Azula - Crumbling Beast Grave
+  Random: Siofra River (using Horned Remains in Siofra) --> Farum Azula - Crumbling Beast Grave (arriving at the start of Farum Azula)
+Caelid - Minor Erdtree Catacombs
+  Random: Siofra River (at the top of the Siofra River Well) --> Caelid - Minor Erdtree Catacombs (at the entrance from Caelid)
+Subterranean Shunning-Grounds - From Royal Capital
+  Random: Siofra River (at the top of the Deep Siofra Well) --> Subterranean Shunning-Grounds - From Royal Capital (at the entrance from Leyndell, Royal Capital)
+Limgrave - Waypoint Ruins - Mad Pumpkin Head <<<<<
+  Random: Capital Outskirts - Auriza Side Tomb - Dupe First Floor (using the chest at the end of the duplicate hallway) --> Limgrave - Waypoint Ruins - Mad Pumpkin Head (at the back of Mad Pumpkin Head's arena)
+Liurnia - Lakeside Crystal Cave - Bloodhound Knight <<<<<
+  Random: Altus Plateau - Sainted Hero's Grave (before Ancient Hero of Zamor's arena) --> Liurnia - Lakeside Crystal Cave - Bloodhound Knight (at the back of Bloodhound Knight's arena)
+Limgrave - Groveside Cave
+  Random: Capital Outskirts - Auriza Side Tomb - Main First Floor (using the chest at the end of the main hallway) --> Limgrave - Groveside Cave (before Beastman of Farum Azula's arena)
+  Random: Dragonbarrow - Sellia Hideaway (before Putrid Crystalians' arena) --> Limgrave - Groveside Cave (at the entrance from Limgrave)
+Altus Plateau - Unsightly Catacombs
+  Random: Capital Outskirts - Auriza Side Tomb - Main First Floor (using the chest behind the illusory wall) --> Altus Plateau - Unsightly Catacombs (at the entrance from Altus Plateau)
+Deeproot Depths
+  Random: Limgrave - Murkwater Cave - Patches (opening the transporter chest in Patches' room) --> Deeproot Depths (arriving by the Great Waterfall Crest grace)
+  Preexisting: Deeproot Depths from Proscription --> Deeproot Depths (traversing down the roots)
+Caelid - Abandoned Cave
+  Preexisting: Caelid - Abandoned Cave Start --> Caelid - Abandoned Cave (dropping down)
+Weeping Peninsula - Beside the Rampart Gaol
+  Preexisting: Weeping Peninsula - Castle Morne --> Weeping Peninsula - Beside the Rampart Gaol (dropping down behind Castle Morne)
+Leyndell - Behind Erdtree Sanctuary
+  Random: Mohgwyn Palace (before Mohg's arena) --> Leyndell - Behind Erdtree Sanctuary (outside of Godfrey's arena at the center back exit)
+  Preexisting: Leyndell - Queen's Bedchamber --> Leyndell - Behind Erdtree Sanctuary (instead of entering the sanctuary, dropping down to the left)
+Divine Tower of Caelid - Godskin Apostle <<<<<
+  Random: Volcano Manor Prison Town (before Abductor Virgins' arena. it can be reached from main town dropping down outside Temple of Eiglay) --> Divine Tower of Caelid - Godskin Apostle (at the back of Godskin Apostle's arena)
+Consecrated Snowfield - Cave of the Forlorn
+  Random: Weeping Peninsula - Beside the Rampart Gaol (before Leonine Misbegotten's arena) --> Consecrated Snowfield - Cave of the Forlorn (at the entrance from Consecrated Snowfield)
+  Random: Volcano Manor Prison Town (before Godskin Noble's arena) --> Consecrated Snowfield - Cave of the Forlorn (before Misbegotten Crusader's arena)
+Volcano Manor - Temple of Eiglay <<<<<
+  Random: Leyndell - Behind Erdtree Sanctuary (outside of Godfrey's arena at the leftmost back exit, the one without the branch) --> Volcano Manor - Temple of Eiglay (at the back left of Godskin Noble's arena)
+Valiant Gargoyles <<<<<
+  Random: Leyndell - Behind Erdtree Sanctuary (outside of Godfrey's arena at the rightmost back exit, the one with the branch) --> Valiant Gargoyles (at the main entrance of Valiant Gargoyles' arena)
+Cave of Knowledge - Soldier of Godrick <<<<<
+  Random: Caelid - Sellia Chair-Crypt - Nox Duo (at the back of Nox Duo's arena) --> Cave of Knowledge - Soldier of Godrick (at the back of Soldier of Godrick's arena)
+Liurnia - Academy Crystal Cave - Crystalian Duo <<<<<
+  Random: Caelid - Minor Erdtree Catacombs (before Erdtree Burial Watchdogs' arena) --> Liurnia - Academy Crystal Cave - Crystalian Duo (at the front of Crystallians' arena)
+  Random: Red Wolf of Radagon (at the back left of Red Wolf's arena) --> Liurnia - Academy Crystal Cave - Crystalian Duo (at the back of Crystallians' arena)
+Leyndell Start
+  Random: Limgrave - Waypoint Ruins - Mad Pumpkin Head (at the front of Mad Pumpkin Head's arena) --> Leyndell Start (at the Leyndell entrance from Capital Rampart)
+Stranded Graveyard
+  Random: Altus Plateau - Unsightly Catacombs (before Perfumer Tricia and Misbegotten Warrior's arena) --> Stranded Graveyard (at the door from Cave of Knowledge)
+Limgrave - Fringefolk Hero's Grave
+  Preexisting: Stranded Graveyard --> Limgrave - Fringefolk Hero's Grave (using two Stonesword Keys)
+Caelid - Gaol Cave - Frenzied Duelist <<<<<
+  Random: Stranded Graveyard (at the exit to Limgrave) --> Caelid - Gaol Cave - Frenzied Duelist (at the back of Frenzied Duelist's arena)
+  Preexisting: Caelid - Gaol Cave - Above Boss --> Caelid - Gaol Cave - Frenzied Duelist (dropping down)
+Margit, the Fell Omen <<<<<
+  Random: Deeproot Depths (before the Deeproot Depths boss arena) --> Margit, the Fell Omen (at the front of Margit's arena)
+Old Altus Tunnel
+  Random: Caelid - Abandoned Cave (before Cleanrot Knights' arena) --> Old Altus Tunnel (at the entrance from Altus Plateau)
+Farum Azula - Dragon Temple
+  Preexisting: Farum Azula - Crumbling Beast Grave Depths --> Farum Azula - Dragon Temple (dropping down to the platform before the Dragon Temple grace)
+Castle Sol
+  Preexisting: Mountaintops of the Giants --> Castle Sol (in map)
+  Random: Academy of Raya Lucaria after Red Wolf (before Rennala's arena) --> Castle Sol (before Commander Niall's arena)
+Moonlight Altar
+  Random: Cave of Knowledge - Soldier of Godrick (at the front of Soldier of Godrick's arena) --> Moonlight Altar (arriving outside Ringleader's Evergaol)
+Flame Peak
+  Preexisting: Mountaintops of the Giants --> Flame Peak (in map)
+Limgrave Tunnels
+  Random: Mountaintops of the Giants (entering Lord Contender's Evergaol) --> Limgrave Tunnels (before Stonedigger Troll's arena)
+Dragonbarrow - Sellia Hideaway - Putrid Crystalians <<<<<
+  Random: Mountaintops of the Giants (at the entrance to Giants' Mountaintop Catacombs) --> Dragonbarrow - Sellia Hideaway - Putrid Crystalians (at the front of Putrid Crystalians' arena)
+Mt. Gelmir - Wyndham Catacombs - Erdtree Burial Watchdog <<<<<
+  Random: Mountaintops of the Giants (at the entrance to Spiritcaller Cave, with Stonesword Key) --> Mt. Gelmir - Wyndham Catacombs - Erdtree Burial Watchdog (at the front of Erdtree Burial Watchdog's arena)
+Liurnia Behind Caria Manor - Royal Grave Evergaol - Onyx Lord <<<<<
+  Random: Limgrave - Fringefolk Hero's Grave (before Ulcerated Tree Spirit's arena) --> Liurnia Behind Caria Manor - Royal Grave Evergaol - Onyx Lord (arriving in Royal Grave Evergaol)
+Isolated Divine Tower
+  Random: Consecrated Snowfield (using the sending gate on the west cliffside) --> Isolated Divine Tower (arriving at the tower)
+Caelid - Sellia Crystal Tunnel
+  Random: Consecrated Snowfield (using the sending gate in the blizzard area, above Albinauric Rise) --> Caelid - Sellia Crystal Tunnel (arriving in the middle of Sellia Crystal Tunnel)
+Liurnia - Raya Lucaria Crystal Tunnel - Crystalian <<<<<
+  Random: Consecrated Snowfield (at the entrance to Consecrated Snowfield Catacombs) --> Liurnia - Raya Lucaria Crystal Tunnel - Crystalian (at the front of Crystalian's arena)
+Liurnia - Slumbering Wolf's Shack
+  Random: Consecrated Snowfield (at Hidden Path to Haligtree dungeon exit) --> Liurnia - Slumbering Wolf's Shack (after Lakeside Crystal Cave boss)
+Mt. Gelmir - Gelmir Hero's Grave - Red Wolf of the Champion <<<<<
+  Random: Consecrated Snowfield (at the entrance to Yelough Anix Tunnel) --> Mt. Gelmir - Gelmir Hero's Grave - Red Wolf of the Champion (at the front of Red Wolf of the Champion's arena)
+Mt. Gelmir - Volcano Cave - Demi-Human Queen Margot <<<<<
+  Random: Consecrated Snowfield (at the entrance to Cave of the Forlorn, with Stonesword Key) --> Mt. Gelmir - Volcano Cave - Demi-Human Queen Margot (at the front of Demi-Human Queen Margot's arena)
+Forbidden Lands
+  Random: Leyndell - Elden Throne (at the front of Morgott's arena) --> Forbidden Lands (arriving at Forbidden Lands at the Grand Lift of Rold)
+  Random: Before Regal Ancestor Spirit (before Regal Ancestor Spirit's arena) --> Forbidden Lands (arriving at Forbidden Lands at the Grand Lift of Rold)
+Academy of Raya Lucaria - Grand Library Chest
+  Preexisting: Academy of Raya Lucaria - Grand Library --> Academy of Raya Lucaria - Grand Library Chest (opening the locked chest using the Discarded Palace Key), using an item from Liurnia
+Ashen Leyndell - Erdtree Sanctuary <<<<<
+  Random: Mimic Tear (at the front of Mimic Tear's arena) --> Ashen Leyndell - Erdtree Sanctuary (in Gideon's arena at the Southwest exit with a shortcut ladder behind it)
+  Preexisting: Ashen Leyndell - Queen's Bedchamber --> Ashen Leyndell - Erdtree Sanctuary (dropping into the boss fight)
+Altus Plateau - Writheblood Ruins - After Boss
+  Random: Dragonbarrow (entering Sellia Evergaol) --> Altus Plateau - Writheblood Ruins - After Boss (after Sanguine Noble's arena in Writheblood Ruins)
+Limgrave - Church of Dragon Communion
+  Random: Dragonbarrow (at the right entrance to Divine Tower of Caelid) --> Limgrave - Church of Dragon Communion (after Coastal Cave boss to Dragon Church)
+Academy of Raya Lucaria Rooftops
+  Random: Dragonbarrow (at the middle entrance to Divine Tower of Caelid) --> Academy of Raya Lucaria Rooftops (at the top of the steps before Raya Lucaria rooftops section)
+Stormveil Castle after Gate
+  Random: Dragonbarrow (at the left entrance to Divine Tower of Caelid) --> Stormveil Castle after Gate (before Godrick's arena)
+  Preexisting: Stormveil Castle before Gate --> Stormveil Castle after Gate (with Rusty Key or talking to Gostoc), using an item from Limgrave
+Capital Outskirts - Sealed Tunnel
+  Random: Dragonbarrow (at the entrance to Sellia Hideaway) --> Capital Outskirts - Sealed Tunnel (at the entrance from Capital Outskirts)
+Altus Plateau - Lux Ruins - After Boss
+  Random: Dragonbarrow (at the entrance to Dragonbarrow Cave) --> Altus Plateau - Lux Ruins - After Boss (after Demi-Human Queen Gilika's arena in Lux Ruins)
+Hidden Path to the Haligtree - Rold Elevator
+  Random: Old Altus Tunnel (before Stonedigger Troll's arena) --> Hidden Path to the Haligtree - Rold Elevator (arriving at Hidden Path to the Haligtree at the Grand Lift of Rold)
+Mt. Gelmir - Seethewater Cave - Kindred of Rot Duo <<<<<
+  Random: Farum Azula - Dragon Temple (before back right of Godskin Duo arena, down Dragon Temple stairs) --> Mt. Gelmir - Seethewater Cave - Kindred of Rot Duo (at the front of Kindred of Rot Duo's arena)
+Dragonkin Soldier of Nokstella <<<<<
+  Random: Farum Azula - Dragon Temple (before back left of Godskin Duo arena, by the crumbled stairs) --> Dragonkin Soldier of Nokstella (at the front of Dragonkin of Nokstella's arena)
+Altus Plateau - Golden Lineage Evergaol - Godefroy the Grafted <<<<<
+  Random: Farum Azula - Dragon Temple (outside the balcony above Godskin Duo's arena) --> Altus Plateau - Golden Lineage Evergaol - Godefroy the Grafted (arriving in Golden Lineage Evergaol)
+Before Hidden Path to the Haligtree
+  Preexisting: Hidden Path to the Haligtree - Rold Elevator --> Before Hidden Path to the Haligtree (at entrance to Hidden Path to Haligtree dungeon)
+Leonine Misbegotten <<<<<
+  Random: Liurnia Behind Caria Manor (after Loretta's arena) --> Leonine Misbegotten (at the front of Leonine Misbegotten's arena)
+Hidden Path to the Haligtree
+  Preexisting: Before Hidden Path to the Haligtree --> Hidden Path to the Haligtree (opening the one-way door)
+Chapel of Anticipation - Grafted Scion <<<<<
+  Random: Limgrave Tunnels (at the entrance from Limgrave) --> Chapel of Anticipation - Grafted Scion (at the front of Grafted Scion's arena)
+  Random: Mt. Gelmir - Seethewater Cave (before Kindred of Rot Duo's arena) --> Chapel of Anticipation - Grafted Scion (at the side exit of Grafted Scion's arena)
+Royal Knight Loretta <<<<<
+  Random: Caelid - Sellia Crystal Tunnel (before Fallingstar Beast's arena) --> Royal Knight Loretta (at the front of Loretta's arena)
+Ainsel River Downstream
+  Random: Caelid - Sellia Crystal Tunnel (at the entrance from Caelid) --> Ainsel River Downstream (before Dragonkin of Nokstella's arena)
+  Preexisting: Above Ainsel River Downstream --> Ainsel River Downstream (dropping down)
+Ashen Leyndell - Elden Throne <<<<<
+  Random: Forbidden Lands (at the exit from Divine Tower of East Altus) --> Ashen Leyndell - Elden Throne (at the back of Hoarah Loux's arena)
+Academy of Raya Lucaria after Red Wolf
+  Preexisting: Academy of Raya Lucaria Rooftops --> Academy of Raya Lucaria after Red Wolf (dropping back down to the courtyard at the start of rooftops section)
+Stormveil Castle before Gate
+  Preexisting: Stormveil Castle after Gate --> Stormveil Castle before Gate (opening the gate)
+Weeping Peninsula - Tombsward Cave - Miranda Blossom <<<<<
+  Random: Stormveil Castle after Gate (at the side path to Limgrave Divine Tower) --> Weeping Peninsula - Tombsward Cave - Miranda Blossom (at the front of Miranda Blossom's arena)
+Volcano Manor after Temple of Eiglay
+  Preexisting: Volcano Manor - Temple of Eiglay --> Volcano Manor after Temple of Eiglay (riding the elevator up and dropping down outside)
+  Preexisting: Volcano Manor - Room Before Sending Gate --> Volcano Manor after Temple of Eiglay (jumping into the lava behind the Sending Gate. this requires some vigor and flasks)
+  Preexisting: Volcano Manor - Hallway Opposite Sending Gate --> Volcano Manor after Temple of Eiglay (jumping over the balcony)
+Mt. Gelmir - Wyndham Catacombs
+  Random: Volcano Manor - Temple of Eiglay (at the front of Godskin Noble's arena) --> Mt. Gelmir - Wyndham Catacombs (at the entrance from Mt. Gelmir)
+  Random: Dragonkin Soldier of Nokstella (at the back of Dragonkin of Nokstella's arena) --> Mt. Gelmir - Wyndham Catacombs (before Erdtree Burial Watchdog's arena)
+Ruin-Strewn Precipice
+  Random: Valiant Gargoyles (at the side entrance to Valiant Gargoyles' arena, next to the main entrance) --> Ruin-Strewn Precipice (before Magma Worm Makar's arena)
+Limgrave - Murkwater Cave
+  Random: Hidden Path to the Haligtree (at exit to Consecrated Snowfield) --> Limgrave - Murkwater Cave (at the entrance from Limgrave)
+  Random: Volcano Manor - Room Before Sending Gate (on the doorway on the second story opposite the Sending Gate) --> Limgrave - Murkwater Cave (before Patches' arena)
+Astel, Naturalborn of the Void <<<<<
+  Random: Hidden Path to the Haligtree (before Stray Mimic Tear's arena) --> Astel, Naturalborn of the Void (at the front of Astel's arena)
+Liurnia - Black Knife Catacombs
+  Random: Ainsel River Downstream (at the top of the Ainsel River Well) --> Liurnia - Black Knife Catacombs (before Black Knife Assassin's arena)
+  Random: Bellum Highway (using East Raya Lucaria Gate) --> Liurnia - Black Knife Catacombs (before Cemetery Shade's arena), using an item from Liurnia
+Dragonbarrow Cave
+  Random: Margit, the Fell Omen (at the back of Margit's arena) --> Dragonbarrow Cave (at the entrance from Dragonbarrow)
+Red Wolf of Radagon <<<<<
+  Preexisting: Academy of Raya Lucaria after Red Wolf --> Red Wolf of Radagon (dropping down in the southeast corner of the courtyard)
+Farum Azula via Belfries
+  Random: Academy of Raya Lucaria after Red Wolf (using the sending gate before the elevator to Grand Library) --> Farum Azula via Belfries (arriving in the isolated section of Farum Azula)
+Altus Tunnel - Crystalian Duo <<<<<
+  Random: Academy of Raya Lucaria after Red Wolf (after Red Wolf's arena) --> Altus Tunnel - Crystalian Duo (at the front of Crystalian Duo's arena)
+Consecrated Snowfield - Yelough Anix Tunnel - Astel, Stars of Darkness <<<<<
+  Random: Academy of Raya Lucaria after Red Wolf (on the steps to Raya Lucaria rooftops section) --> Consecrated Snowfield - Yelough Anix Tunnel - Astel, Stars of Darkness (at the front of Astel, Stars of Darkness' arena)
+Magma Wrym Makar <<<<<
+  Random: Stormveil Castle before Gate (after Margit's arena) --> Magma Wrym Makar (at the front of Magma Wyrm Makar's arena)
+Volcano Manor - Room Before Sending Gate
+  Preexisting: Volcano Manor after Temple of Eiglay --> Volcano Manor - Room Before Sending Gate (opening the door)
+Weeping Peninsula - Impaler's Catacombs
+  Random: Ruin-Strewn Precipice (at the entrance from Liurnia) --> Weeping Peninsula - Impaler's Catacombs (at the entrance from Weeping Peninsula)
+Divine Tower of Limgrave Interior
+  Preexisting: Divine Tower of Limgrave after Sending Gate --> Divine Tower of Limgrave Interior (opening the heavy doors), using an item from Mohg, Lord of Blood
+Mt. Gelmir - Volcano Cave
+  Random: Moonlight Altar (at the Deep Ainsel Well) --> Mt. Gelmir - Volcano Cave (before Demi-Human Queen Margot's arena)
+Capital Outskirts - Auriza Side Tomb - Dupe Entrance
+  Random: Flame Peak (at the entrance to Giant-Conquering Hero's Grave) --> Capital Outskirts - Auriza Side Tomb - Dupe Entrance (arriving at the chest in the duplicate entrance area)
+Weeping Peninsula - Impaler's Catacombs - Erdtree Burial Watchdog <<<<<
+  Random: Flame Peak (before Fire Giant, at the left entrance with lower elevation) --> Weeping Peninsula - Impaler's Catacombs - Erdtree Burial Watchdog (at the front of Erdtree Burial Watchdog's arena)
+Liurnia - Academy Crystal Cave
+  Random: Flame Peak (before Fire Giant, at the right entrance with higher elevation) --> Liurnia - Academy Crystal Cave (at the entrance from Liurnia)
+Roundtable Hold Balcony
+  Random: Ashen Leyndell - Erdtree Sanctuary (at the front of Gideon's arena) --> Roundtable Hold Balcony (in Roundtable Hold at the balcony overlooking the first floor)
+Commander Niall <<<<<
+  Random: Ashen Leyndell - Erdtree Sanctuary (in Gideon's arena at the South entrance by the branches) --> Commander Niall (at the front of Commander Niall's arena)
+Malenia, Blade of Miquella <<<<<
+  Random: Ashen Leyndell - Erdtree Sanctuary (in Gideon's arena at the rightmost East exit, the one without the branch) --> Malenia, Blade of Miquella (at the front of Malenia's arena)
+Altus Plateau
+  Random: Ashen Leyndell - Erdtree Sanctuary (in Gideon's arena at the leftmost East exit, the one with the branch) --> Altus Plateau (arriving at the Grand Lift of Dectus in Altus Plateau)
+  Preexisting: Mt. Gelmir --> Altus Plateau (in map)
+  Preexisting: Shaded Castle --> Altus Plateau (in map)
+  Preexisting: Capital Outskirts --> Altus Plateau (in map)
+  Preexisting: After Magma Wyrm Makar --> Altus Plateau (taking the elevator up)
+  Random: Deeproot Depths - Fia's Champions (using the sending gate after Fia's Champions) --> Altus Plateau (arriving at the north side of the Forest-Spanning Greatbridge), using items from Mohg, Lord of Blood; Forbidden Lands; Mimic Tear; Ashen Leyndell - Elden Throne; Astel, Naturalborn of the Void; Starscourge Radahn; Leyndell - Elden Throne
+Weeping Peninsula - Tombsward Cave
+  Random: Ashen Leyndell - Erdtree Sanctuary (in Gideon's arena at the Southeast exit with treasure behind it) --> Weeping Peninsula - Tombsward Cave (before Miranda Blossom's arena)
+Volcano Manor - After Abductor Virgins
+  Random: Ashen Leyndell - Erdtree Sanctuary (in Gideon's arena at the center East exit) --> Volcano Manor - After Abductor Virgins (after Abductor Virgins' arena)
+Altus Plateau - Writheblood Ruins - Sanguine Noble <<<<<
+  Random: Liurnia - Black Knife Catacombs (at the entrance from Liurnia) --> Altus Plateau - Writheblood Ruins - Sanguine Noble (at the front of Sanguine Noble's arena)
+  Random: Dragonbarrow Cave (before Beastmen of Farum Azula's arena) --> Altus Plateau - Writheblood Ruins - Sanguine Noble (at the back of Sanguine Noble's arena)
+Mt. Gelmir
+  Preexisting: Volcano Manor - After Abductor Virgins --> Mt. Gelmir (dropping down)
+  Preexisting: Altus Plateau --> Mt. Gelmir (in map)
+  Random: Limgrave - Coastal Cave (at the entrance from Limgrave) --> Mt. Gelmir (at the entrance to Seethewater Cave, with Stonesword Key)
+Leyndell - Erdtree Sanctuary <<<<<
+  Preexisting: Leyndell - Queen's Bedchamber --> Leyndell - Erdtree Sanctuary (dropping into the boss fight)
+  Random: Limgrave (at the start of Nokron from Limgrave) --> Leyndell - Erdtree Sanctuary (in Godfrey's arena at the Southeast exit with treasure behind it)
+Dragonbarrow - Sellia Hideaway
+  Random: Weeping Peninsula - Impaler's Catacombs (before Erdtree Burial Watchdog's arena) --> Dragonbarrow - Sellia Hideaway (at the entrance from Dragonbarrow)
+Deep Ainsel Well
+  Random: Mt. Gelmir - Volcano Cave (at the entrance from Mt. Gelmir) --> Deep Ainsel Well (after Astel's arena)
+  Random: Liurnia - Lakeside Crystal Cave - Bloodhound Knight (at the front of Bloodhound Knight's arena) --> Deep Ainsel Well (at the top of the Deep Ainsel Well), using an item from Caelid
+Leyndell - Queen's Bedchamber
+  Random: Liurnia - Academy Crystal Cave (before Crystallians' arena) --> Leyndell - Queen's Bedchamber (before Morgott's arena)
+Leyndell - Erdtree Sanctuary Stairs
+  Preexisting: Leyndell - Queen's Bedchamber --> Leyndell - Erdtree Sanctuary Stairs (instead of entering the sanctuary, dropping down to the right)
+Consecrated Snowfield Catacombs
+  Random: Leyndell - Queen's Bedchamber (outside of Godfrey's arena at the base of a shortcut ladder, accessed from an open window on a second-floor rooftop) --> Consecrated Snowfield Catacombs (at the entrance from Consecrated Snowfield)
+Limgrave - Highroad Cave
+  Random: Leyndell - Erdtree Sanctuary Stairs (outside of Godfrey's arena at the stairs which go down to the Marika statue) --> Limgrave - Highroad Cave (at the entrance from Limgrave)
+  Random: Castle Redmane Boss (at the front of Redmane Castle Plaza) --> Limgrave - Highroad Cave (before Guardian Golem's arena)
+Before Regal Ancestor Spirit
+  Random: Consecrated Snowfield (using the Sending Gate in Ordina) --> Before Regal Ancestor Spirit (arriving in the area before Regal Ancestor Spirit's arena)
+Isolated Divine Tower Interior
+  Preexisting: Isolated Divine Tower --> Isolated Divine Tower Interior (opening the heavy door), using an item from Forbidden Lands
+Divine Tower of East Altus Start
+  Random: Royal Knight Loretta (at the back of Loretta's arena) --> Divine Tower of East Altus Start (at the elevator to the Divine Tower of East Altus)
+Weeping Peninsula - Tombsward Catacombs
+  Random: Ashen Leyndell - Elden Throne (at the front of Hoarah Loux's arena) --> Weeping Peninsula - Tombsward Catacombs (at the entrance from Weeping Peninsula)
+Altus Tunnel
+  Random: Weeping Peninsula - Tombsward Cave (at the entrance from Weeping Peninsula) --> Altus Tunnel (before Crystalian Duo's arena)
+  Random: Castle Redmane (using the sending gate in Redmane Castle) --> Altus Tunnel (at the entrance from Altus Plateau)
+Divine Tower of Caelid Interior
+  Random: Limgrave (at the entrance to Limgrave Tunnels) --> Divine Tower of Caelid Interior (at the door to Caelid Divine Tower's Two Fingers), using an item from Astel, Naturalborn of the Void
+Caelid - War-Dead Catacombs
+  Random: Astel, Naturalborn of the Void (at the back of Astel's arena) --> Caelid - War-Dead Catacombs (at the entrance from Radahn's arena)
+Flame Peak - Giant-Conquering Hero's Grave
+  Random: Consecrated Snowfield Catacombs (before Putrid Grave Warden Duelist's arena) --> Flame Peak - Giant-Conquering Hero's Grave (at the entrance from Flame Peak)
+Limgrave - Stormfoot Catacombs - Erdtree Burial Watchdog <<<<<
+  Random: Weeping Peninsula - Tombsward Catacombs (before Cemetery Shade's arena) --> Limgrave - Stormfoot Catacombs - Erdtree Burial Watchdog (at the front of Erdtree Burial Watchdog's arena)
+Caelid Catacombs
+  Random: Red Wolf of Radagon (at the front of Red Wolf's arena) --> Caelid Catacombs (at the entrance from Caelid)
+Altus Plateau - Perfumer's Grotto
+  Random: Magma Wrym Makar (at the back of Magma Wyrm Makar's arena) --> Altus Plateau - Perfumer's Grotto (at the entrance from Altus Plateau)
+  Random: Mt. Gelmir - Gelmir Hero's Grave (before Red Wolf of the Champion's arena) --> Altus Plateau - Perfumer's Grotto (before Omenkiller and Miranda the Blighted Bloom's arena)
+Caelid - Gaol Cave - Above Boss
+  Random: Caelid - War-Dead Catacombs (before Putrid Tree Spirit's arena) --> Caelid - Gaol Cave - Above Boss (at the dropdown before Frenzied Duelist's arena)
+Caelid - Gaol Cave
+  Random: Flame Peak - Giant-Conquering Hero's Grave (before Ancient Hero of Zamor's arena) --> Caelid - Gaol Cave (at the entrance from Caelid)
+Capital Outskirts - Sealed Tunnel - Onyx Lord <<<<<
+  Random: Commander Niall (at the back of Commander Niall's arena) --> Capital Outskirts - Sealed Tunnel - Onyx Lord (at the back of Onyx Lord's arena)
+Capital Outskirts
+  Preexisting: Altus Plateau --> Capital Outskirts (in map)
+  Preexisting: Capital Outskirts - Capital Rampart --> Capital Outskirts (double-jumping off the bridge to the northwest pillar)
+Shaded Castle
+  Preexisting: Altus Plateau --> Shaded Castle (in map)
+Liurnia - Malefactor's Evergaol - Adan, Thief of Fire <<<<<
+  Random: Altus Plateau (entering Golden Lineage Evergaol) --> Liurnia - Malefactor's Evergaol - Adan, Thief of Fire (arriving in Malefactor's Evergaol)
+Starscourge Radahn <<<<<
+  Random: Altus Plateau (using the sending gate by the Forest-Spanning Greatbridge grace) --> Starscourge Radahn (arriving at Starscourge Radahn's arena)
+Moonlight Altar - Ringleader's Evergaol - Alecto, Black Knife Ringleader <<<<<
+  Random: Altus Plateau (at the entrance to Sainted Hero's Grave) --> Moonlight Altar - Ringleader's Evergaol - Alecto, Black Knife Ringleader (arriving in Ringleader's Evergaol)
+Consecrated Snowfield - Cave of the Forlorn - Misbegotten Crusader <<<<<
+  Random: Altus Plateau (at the entrance to Unsightly Catacombs) --> Consecrated Snowfield - Cave of the Forlorn - Misbegotten Crusader (at the front of Misbegotten Crusader's arena)
+Mt. Gelmir - Gelmir Hero's Grave
+  Random: Altus Plateau (at the entrance to Old Altus Tunnel, with Stonesword Key) --> Mt. Gelmir - Gelmir Hero's Grave (at the entrance from Mt. Gelmir)
+Liurnia - Black Knife Catacombs - Black Knife Assassin <<<<<
+  Random: Altus Plateau (at the entrance to Sage's Cave) --> Liurnia - Black Knife Catacombs - Black Knife Assassin (at the front of Black Knife Assassin's arena)
+Limgrave - Waypoint Ruins - Sellen
+  Random: Altus Plateau (before Demi-Human Queen Gilika's arena in Lux Ruins) --> Limgrave - Waypoint Ruins - Sellen (after Mad Pumpkin Head's arena in Waypoint Ruins)
+Limgrave - Forlorn Hound Evergaol - Bloodhound Knight Darriwil <<<<<
+  Random: Altus Plateau (before Sanguine Noble's arena in Writheblood Ruins) --> Limgrave - Forlorn Hound Evergaol - Bloodhound Knight Darriwil (arriving in Forlorn Hound Evergaol)
+Mountaintops - Spiritcaller Cave
+  Random: Altus Plateau (at the entrance to Perfumer's Grotto) --> Mountaintops - Spiritcaller Cave (before Spiritcaller Snail's arena)
+Cave of Knowledge - After Soldier of Godrick
+  Random: Altus Plateau (at the entrance to Altus Tunnel) --> Cave of Knowledge - After Soldier of Godrick (after Soldier of Godrick's arena)
+Altus Plateau - Sage's Cave - Necromancer Garris <<<<<
+  Random: Mt. Gelmir (at the entrance to Volcano Manor) --> Altus Plateau - Sage's Cave - Necromancer Garris (at the front of Necromancer Garris' arena)
+Leyndell Catacombs - Esgar, Priest of Blood <<<<<
+  Random: Mt. Gelmir (at the entrance to Wyndham Catacombs) --> Leyndell Catacombs - Esgar, Priest of Blood (at the front of Esgar, Priest of Blood's arena)
+Flame Peak - Giants' Mountaintop Catacombs - Ulcerated Tree Spirit <<<<<
+  Random: Mt. Gelmir (at the entrance to Gelmir Hero's Grave) --> Flame Peak - Giants' Mountaintop Catacombs - Ulcerated Tree Spirit (at the front of Ulcerated Tree Spirit's arena)
+Capital Outskirts - Auriza Side Tomb - Dupe Jail and Lever
+  Random: Mt. Gelmir (at the entrance to Volcano Cave) --> Capital Outskirts - Auriza Side Tomb - Dupe Jail and Lever (arriving at the duplicate jail, where the lever can be reached)
+Divine Tower of West Altus Interior
+  Preexisting: Divine Tower of West Altus --> Divine Tower of West Altus Interior (opening the heavy door), using an item from Leyndell - Elden Throne
+Consecrated Snowfield - Yelough Anix Tunnel
+  Random: Caelid Catacombs (before Cemetery Shade's arena) --> Consecrated Snowfield - Yelough Anix Tunnel (at the entrance from Consecrated Snowfield)
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Leyndell - Erdtree Entrance
+  Random: Caelid - Gaol Cave (before Frenzied Duelist's arena) --> Leyndell - Erdtree Entrance (the path up to the Erdtree)
+Divine Tower of East Altus
+  Preexisting: Divine Tower of East Altus Start --> Divine Tower of East Altus (at the Morgott the Grace-Given gate coming from Leyndell)
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Maliketh the Black Blade <<<<<
+  Random: Capital Outskirts - Sealed Tunnel - Onyx Lord (at the front of Onyx Lord's arena) --> Maliketh the Black Blade (at the front of Maliketh's arena)
+Volcano Manor - Abductor Virgins <<<<<
+  Random: Shaded Castle (before Elemer of the Briar's arena) --> Volcano Manor - Abductor Virgins (at the back of Abductor Virgins' arena)
+Academy of Raya Lucaria Main Entrance
+  Random: Mountaintops - Spiritcaller Cave (at the entrance from Mountaintops of the Giants) --> Academy of Raya Lucaria Main Entrance (arriving at Raya Lucaria Main Academy Gate from the South)
+Rykard, Lord of Blasphemy <<<<<
+  Random: Divine Tower of East Altus (approaching the Divine Tower of East Altus gate, or using the grace menu) --> Rykard, Lord of Blasphemy (at the front of Rykard's arena)
+Above Ainsel River Downstream
+  Random: Divine Tower of East Altus (at the exit to Forbidden Lands) --> Above Ainsel River Downstream (after the tunnel from Ainsel River Main)
+Capital Outskirts - Auriza Hero's Grave
+  Random: Consecrated Snowfield - Yelough Anix Tunnel (before Astel, Stars of Darkness' arena) --> Capital Outskirts - Auriza Hero's Grave (at the entrance from Capital Outskirts)
+  Random: Divine Tower of Caelid - Godskin Apostle (at the front of Godskin Apostle's arena) --> Capital Outskirts - Auriza Hero's Grave (before Crucible Knight Ordovis' arena)
+Chapel of Anticipation - after Grafted Scion
+  Random: Chapel of Anticipation (using the Pureblood Knight's Medal from anywhere) --> Chapel of Anticipation - after Grafted Scion (arriving at Chapel of Anticipation from Belfries), using an item from Academy of Raya Lucaria Main Entrance
+Mohg, the Omen <<<<<
+  Random: Volcano Manor - Abductor Virgins (at the front of Abductor Virgins' arena) --> Mohg, the Omen (at the front of Mohg's arena)
+Liurnia - Kingsrealm Ruins - Royal Revenant <<<<<
+  Random: Academy of Raya Lucaria Main Entrance (using East-facing gate at Raya Lucaria Main Entrance) --> Liurnia - Kingsrealm Ruins - Royal Revenant (at the front of Royal Revenant's arena), using an item from Liurnia
+Weeping Peninsula - Earthbore Cave
+  Random: Chapel of Anticipation - after Grafted Scion (after Grafted Scion's arena) --> Weeping Peninsula - Earthbore Cave (at the entrance from Weeping Peninsula)
+Stormhill - Deathtouched Catacombs
+  Random: Caelid (using either sending gate in Impassable Greatbridge) --> Stormhill - Deathtouched Catacombs (at the entrance from Stormhill)
+After Mohg, Lord of Blood
+  Random: Bellum Highway (using the Dectus Medallion in Bellum Highway) --> After Mohg, Lord of Blood (after Mohg's arena at the back right), using items from Siofra River; Leyndell - Elden Throne
+Caelid Catacombs - Cemetery Shade <<<<<
+  Random: Capital Outskirts (at the entrance to Auriza Hero's Grave) --> Caelid Catacombs - Cemetery Shade (at the front of Cemetery Shade's arena)
+Limgrave Tunnels - Stonedigger Troll <<<<<
+  Random: Capital Outskirts (at the entrance to Sealed Tunnel) --> Limgrave Tunnels - Stonedigger Troll (at the front of Stonedigger Troll's arena)
+Leyndell - Erdtree Sanctuary Treasure
+  Random: Capital Outskirts (up the stairs behind Draconic Tree Sentinel) --> Leyndell - Erdtree Sanctuary Treasure (outside of Godfrey's arena with a treasure item)
+Mountaintops - Spiritcaller Cave - Spiritcaller Snail <<<<<
+  Random: Capital Outskirts (at the entrance to Auriza Side Tomb) --> Mountaintops - Spiritcaller Cave - Spiritcaller Snail (at the front of Spiritcaller Snail's arena)
+Flame Peak - Giants' Mountaintop Catacombs
+  Random: Starscourge Radahn (at the far North entrance to War-Dead Catacombs) --> Flame Peak - Giants' Mountaintop Catacombs (at the entrance from Mountaintops of the Giants)
+Caelid Greatjar
+  Random: After Mohg, Lord of Blood (after Mohg's arena at the back left) --> Caelid Greatjar (at the Deep Siofra Well)
+Before Radahn
+  Random: Liurnia - Kingsrealm Ruins - Royal Revenant (at the back of Royal Revenant's arena) --> Before Radahn (at the bottom of the elevator before the Radahn warp)
+Liurnia - Cliffbottom Catacombs
+  Random: Caelid Greatjar (at the entrance to Caelid Colosseum) --> Liurnia - Cliffbottom Catacombs (at the entrance from Liurnia)
+Godskin Duo <<<<<
+  Random: Weeping Peninsula - Earthbore Cave (before Runebear's arena) --> Godskin Duo (at the back left of Godskin Duo's arena)
+  Preexisting: Farum Azula - Dragon Temple Balcony --> Godskin Duo (dropping down)
+Limgrave - Stormfoot Catacombs
+  Random: Stormhill - Deathtouched Catacombs (before Black Knife Assassin's arena) --> Limgrave - Stormfoot Catacombs (at the entrance from Limgrave)
+Mt. Gelmir - Seethewater Cave
+  Random: Flame Peak - Giants' Mountaintop Catacombs (before Ulcerated Tree Spirit's arena) --> Mt. Gelmir - Seethewater Cave (at the entrance from Mt. Gelmir)
+Farum Azula Rooftop and Bridge
+  Random: Liurnia - Cliffbottom Catacombs (before Erdtree Burial Watchdog's arena) --> Farum Azula Rooftop and Bridge (before Maliketh's arena)
+Ashen Leyndell - Queen's Bedchamber
+  Random: Limgrave - Stormfoot Catacombs (before Erdtree Burial Watchdog's arena) --> Ashen Leyndell - Queen's Bedchamber (before Hoarah Loux's arena)
+Limgrave - Highroad Cave - Guardian Golem <<<<<
+  Random: Ashen Leyndell - Queen's Bedchamber (outside of Gideon's arena at the base of a shortcut ladder, accessed from an open window on a second-floor rooftop) --> Limgrave - Highroad Cave - Guardian Golem (at the front of Guardian Golem's arena)
+Old Altus Tunnel - Stonedigger Troll <<<<<
+  Random: Farum Azula Rooftop and Bridge (after Godskin Duo arena) --> Old Altus Tunnel - Stonedigger Troll (at the front of Stonedigger Troll's arena)
+Deeproot Depths - Fia's Champions <<<<<
+  Random: Farum Azula Rooftop and Bridge (at the Imp Seal leading up to the Dragon Temple Lift grace) --> Deeproot Depths - Fia's Champions (at the front of the Deeproot Depths boss arena)
+Capital Outskirts - Auriza Side Tomb
+  Random: Mohg, Lord of Blood (at the back right of Mohg's arena) --> Capital Outskirts - Auriza Side Tomb (before Grave Warden Duelist's arena)
+Altus Plateau - Sainted Hero's Grave - Ancient Hero of Zamor <<<<<
+  Random: Leyndell - Erdtree Sanctuary (in Godfrey's arena at the normal South entrance from the branches) --> Altus Plateau - Sainted Hero's Grave - Ancient Hero of Zamor (at the front of Ancient Hero of Zamor's arena)
+Liurnia - Stillwater Cave - Cleanrot Knight <<<<<
+  Random: Leyndell - Erdtree Sanctuary (in Godfrey's arena at the West entrance to the Marika statue) --> Liurnia - Stillwater Cave - Cleanrot Knight (at the front of Cleanrot Knight's arena)
+Weeping Peninsula - Tombsward Catacombs - Cemetery Shade <<<<<
+  Random: Leyndell - Erdtree Sanctuary (in Godfrey's arena at the rightmost East exit, the one without the branch) --> Weeping Peninsula - Tombsward Catacombs - Cemetery Shade (at the front of Cemetery Shade's arena)
+Altus Plateau - Unsightly Catacombs - Perfumer Tricia and Misbegotten Warrior <<<<<
+  Random: Leyndell - Erdtree Sanctuary (in Godfrey's arena at the leftmost East exit, the one with the branch) --> Altus Plateau - Unsightly Catacombs - Perfumer Tricia and Misbegotten Warrior (at the front of Perfumer Tricia and Misbegotten Warrior's arena)
+Carian Study Hall
+  Random: Leyndell - Erdtree Sanctuary (in Godfrey's arena at the Southwest exit with a shortcut ladder behind it) --> Carian Study Hall (at the entrance from Liurnia)
+Godrick the Grafted <<<<<
+  Random: Leyndell - Erdtree Sanctuary (in Godfrey's arena at the center East exit) --> Godrick the Grafted (at the front of Godrick's arena)
+Capital Outskirts - Capital Rampart
+  Preexisting: Leyndell Start --> Capital Outskirts - Capital Rampart (to Leyndell after acquiring enough Great Runes), using items from Mohg, Lord of Blood; Forbidden Lands; Mimic Tear; Ashen Leyndell - Elden Throne; Astel, Naturalborn of the Void; Starscourge Radahn; Leyndell - Elden Throne
+Farum Azula - Dragon Temple Balcony
+  Random: Godskin Duo (at the back right of Godskin Duo's arena) --> Farum Azula - Dragon Temple Balcony (on the balcony above Godskin Duo's arena)
+Liurnia - Kingsrealm Ruins - After Boss
+  Random: Godskin Duo (at the front left of Godskin Duo's arena) --> Liurnia - Kingsrealm Ruins - After Boss (after Royal Revenant's arena in Kingsrealm Ruins)
+Limgrave - Fringefolk Hero's Grave - Ulcerated Tree Spirit <<<<<
+  Random: Godskin Duo (at the front right of Godskin Duo's arena) --> Limgrave - Fringefolk Hero's Grave - Ulcerated Tree Spirit (at the front of Ulcerated Tree Spirit's arena)
+Capital Outskirts - Auriza Side Tomb - Main Second Floor
+  Random: Capital Outskirts - Capital Rampart (after Draconic Tree Sentinel) --> Capital Outskirts - Auriza Side Tomb - Main Second Floor (arriving at the chest overlooking the main hallway)
+Caelid - Gael Tunnel - Magma Wyrm <<<<<
+  Random: Capital Outskirts - Auriza Side Tomb (using the chest in the actual entrance) --> Caelid - Gael Tunnel - Magma Wyrm (at the front of Magma Wyrm's arena)
+After Magma Wyrm Makar
+  Random: Capital Outskirts - Auriza Side Tomb (at the entrance from Capital Outskirts) --> After Magma Wyrm Makar (after Magma Worm Makar's arena)
+Divine Tower of Liurnia
+  Preexisting: Carian Study Hall --> Divine Tower of Liurnia (using Carian Inverted Statue), using an item from Roundtable Hold
+Limgrave - Murkwater Catacombs
+  Random: Capital Outskirts - Auriza Side Tomb - Main Second Floor (using the chest up the ladder from the main second floor) --> Limgrave - Murkwater Catacombs (at the entrance from Limgrave)
+Deeproot Depths - Lichdragon Fortissax <<<<<
+  Preexisting: Deeproot Depths - Fia's Champions --> Deeproot Depths - Lichdragon Fortissax (using Cursemark of Death with Fia, missable), using an item from Liurnia
+Volcano Manor - Hallway Opposite Sending Gate
+  Random: Limgrave - Murkwater Catacombs (before Grave Warden Duelist's arena) --> Volcano Manor - Hallway Opposite Sending Gate (in the hallway towards the Imp Seal back to main Volcano Manor)
+Divine Tower of East Altus Interior
+  Preexisting: Divine Tower of East Altus --> Divine Tower of East Altus Interior (opening the heavy door), using items from Mimic Tear; Ashen Leyndell - Elden Throne
+Volcano Manor Drawing Room
+  Preexisting: Volcano Manor Entrance --> Volcano Manor Drawing Room (using Drawing-Room Key), using an item from Rykard, Lord of Blasphemy
+Capital Outskirts - Auriza Side Tomb - Dupe Second Floor
+  Random: Volcano Manor Drawing Room (at the end of the dark hallway leading to Prison Town) --> Capital Outskirts - Auriza Side Tomb - Dupe Second Floor (arriving at the chest overlooking the duplicate hallway)
+Above Frenzied Flame Proscription
+  Preexisting: Mohg, the Omen --> Above Frenzied Flame Proscription (at the Morgott the Grace-Given gate after Mohg the Omen's arena)
+Frenzied Flame Proscription
+  Preexisting: Above Frenzied Flame Proscription --> Frenzied Flame Proscription (dropping down the beams)
+Deeproot Depths from Proscription
+  Preexisting: Frenzied Flame Proscription --> Deeproot Depths from Proscription (dropping down past two illusory walls)
+Ashen Leyndell - Erdtree Entrance
+  Preexisting: Leyndell - Erdtree Entrance --> Ashen Leyndell - Erdtree Entrance (after burning the Erdtree by defeating the boss in Maliketh's arena)
+Stone Platform <<<<<
+  Preexisting: Ashen Leyndell - Erdtree Entrance --> Stone Platform (touching the golden light)
+
+
+Optional areas:
+(none)
+
+
+Finished 1854666672
+Writing graph.dot because eldendata\Graphviz\dot.exe was detected
+$ eldendata\Graphviz\dot.exe -Tsvg graph.dot -o spoiler_logs\2023-08-06_21.15.41_log_1854666672_24149.svg
+
+
+386 entrances
+Writing params
+Writing 162 emevds
+Writing FMGs
+Writing ESDs
+Writing 161 maps
+Writing overworld maps
+Done

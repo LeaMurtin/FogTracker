@@ -1,0 +1,69 @@
+{
+	"entrances": {
+		"00001": {
+			"description": "before Grafted Scion's arena",
+			"panel": "Chapelle de l'Anticipation",
+			"areaFrom": "Chapelle de l'Anticipation",
+			"areaTo": "Rejeton Greffé",
+			"alias": "avant le Rejeton Greffé",
+			"oneWay": false,
+			"oneWayCategory": "",
+			"reverseId": "00003",
+			"type": ["worldshuffle", "dungeoncrawl"],
+			"accessTo": [],
+			"shuffled": true
+		},
+		"00002": {
+			"description": "using the Pureblood Knight's Medal from anywhere",
+			"panel": "Warps",
+			"areaFrom": "",
+			"areaTo": "Mohgwyn Palace",
+			"alias": "Pureblood Knight's Medal",
+			"oneWay": true,
+			"oneWayCategory": "Items",
+			"reverseId": "",
+			"type": ["worldshuffle", "dungeoncrawl"],
+			"accessTo": [],
+			"shuffled": true
+		},
+		"00003": {
+			"description": "at the front of Grafted Scion's arena",
+			"panel": "Chapelle de l'Anticipation",
+			"areaFrom": "Arène du Rejeton Greffé",
+			"areaTo": "Chapelle de l'Anticipation",
+			"alias": "Rejeton Greffé sortie avant",
+			"oneWay": false,
+			"oneWayCategory": "",
+			"reverseId": "00001",
+			"type": ["worldshuffle", "dungeoncrawl"],
+			"accessTo": ["00004"],
+			"shuffled": true
+		},
+		"00004": {
+			"description": "at the side exit of Grafted Scion's arena",
+			"panel": "Chapelle de l'Anticipation",
+			"areaFrom": "Arène du Rejeton Greffé",
+			"areaTo": "Chapelle de l'Anticipation 2nde partie",
+			"alias": "Rejeton Greffé sortie côté",
+			"oneWay": false,
+			"oneWayCategory": "",
+			"reverseId": "00005",
+			"type": "worldshuffle",
+			"accessTo": ["00003"],
+			"shuffled": true
+		},
+		"00005": {
+			"description": "after Grafted Scion's arena",
+			"panel": "Chapelle de l'Anticipation",
+			"areaFrom": "Chapelle de l'Anticipation 2nde partie",
+			"areaTo": "Arène du Rejeton Greffé",
+			"alias": "après le Rejeton Greffé",
+			"oneWay": false,
+			"oneWayCategory": "",
+			"reverseId": "00004",
+			"type": "worldshuffle",
+			"accessTo": [],
+			"shuffled": true
+		}
+	}
+}

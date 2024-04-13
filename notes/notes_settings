@@ -1,0 +1,48 @@
+WORLD SHUFFLE:
+'shuffle v3 seed:0' -> word shuffle rien de coché
+
+required gates and warps:
+'req_underground' Underground cities
+'req_colosseum' Colosseum entrances 
+'req_divine' Divine Towers
+'req_belfries' Belfries
+'req_graveyard' Stranded Graveyard
+'req_evergaol' Boss evergaols
+'req_minorwarp' Minor sending gates
+'req_dungeon' Mini-dungeons
+
+Mini-dungeon randomization:
+'affinity' Keep same structure
+'default_noaffinity' Randomize structure
+
+routing options:
+'newgate' Required gate between Stormhill and Liurnia
+'openstart' prevent first area from being a boss fight
+'coupledwarp' treat academy gates and grand lifts as coupled warps
+'coupledminor' treat two-way sending gates as coupled warps
+'runes_end:3' Great Runes to acces final boss (1 to 7)
+
+other options:
+'newgraces' add additionnal graces
+
+DUNGEONCRAWL
+'crawl v3 seed:0' -> dungeoncrawl rien de coché
+
+required gates
+'req_underground' Underground cities
+'req_graveyard' Stranded Graveyard
+'req_divine' Divine Towers
+'req_minorwarp' Minor sending gates
+'req_cave' Caves
+'req_catacomb' Catacombs
+'req_tunnel' Tunnels
+'req_grave' Hero''s Graves
+
+routing options:
+'openstart' prevent first area from being a boss fight
+'coupledwarp' treat academy gates and grand lifts as coupled warps
+'coupledminor' treat two-way sending gates as coupled warps
+'runes_end:3' Great Runes to acces final boss (1 to 7)
+'tierreq' Require defeating a major boss with endgame scaling to access the final boss
+
+      

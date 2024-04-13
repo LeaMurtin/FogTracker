@@ -1,0 +1,27 @@
+pour chaque entrance de quoi j'ai besoin:
+  - zone de depart (areaFrom)
+  - zone d'arrivée vanilla (areaTo)
+  - le nom affiché pour l'entrance prise
+  - le nom affiché pour la destination
+  - son autre face le cas échéant (reverseEntrance)
+  - type d'entrance -> 'double' ou 'oneWay'
+  - à quelles autres entrées il donne accès -> liste d'index
+
+  EXEMPLE:
+      prendre la porte du boss de Groveside Cave nous mène à l'arène de Malenia: 
+      Chercher Groveside Cave -> ouverture panneau
+      Dans panneau Groveside Cave 
+          -> clic sur Boss Door 
+              -> menu déroulant Grandes Régions
+                -> clic Consecrated Snowfield
+                  -> clic Haligtree
+                    -> clic 'inside Malenia Arena' 
+      
+      Affichage:
+      dans Panneau 'Groveside Cave' -> BOSS DOOR => Malenia Arena
+      dans Panneau 'Haligtree' -> INSIDE MALENIA ARENA => Groveside Cave Interior
+
+      donc Affichage dans Panneau: ENTRANCE NAME => AREA NAME
+
+      
+     

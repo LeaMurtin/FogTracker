@@ -1,0 +1,17 @@
+{
+	"entrances": {
+		"entrance id": {
+			"description": "identifier",
+			"panel": "general area",
+			"areaFrom": "area name",
+			"areaTo": "vanilla destination",
+			"alias": "wich one in the panel",
+			"oneWay": false,
+			"oneWayCategory": "",
+			"reverseId": "other side id",
+			"type": ["worldshuffle", "dungeoncrawl"],
+			"accessTo": [""],
+			"shuffled": true
+		}
+	}
+}
