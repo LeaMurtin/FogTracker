@@ -1,15 +1,19 @@
-import './App.css'
+import './App.css';
 import '@mantine/core/styles.css';
-import { MainPage } from "./Main.page"
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider, createTheme } from '@mantine/core';
+import SettingsPage from './Settings.page';
+
+const theme = createTheme({
+  cursorType: 'pointer',
+  defaultRadius: 'md',
+});
 
 function App() {
-
   return (
-    <MantineProvider forceColorScheme="dark">
-      <MainPage />
+    <MantineProvider theme={theme} forceColorScheme="dark">
+      <SettingsPage />
     </MantineProvider>
-  )
+  );
 }
 
-export default App
+export default App;

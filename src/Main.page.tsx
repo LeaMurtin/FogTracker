@@ -1,6 +1,5 @@
 import { AppShell, Burger, CSSProperties, Flex, Stack, Switch, SwitchStylesNames } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
-import { css } from '@emotion/css';
 
 const switchStyles: Partial<Record<SwitchStylesNames, CSSProperties>> = {
   label: { fontSize: 'var(--mantine-font-size-md)', padding: 0 },
