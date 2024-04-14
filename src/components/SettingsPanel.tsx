@@ -12,14 +12,12 @@ const SettingsPanel: React.FC<Props> = ({ mode }) => {
       {Object.keys(settingList).map((setting) => {
         return (
           settingList[setting].mode.includes(mode) && (
-            <>
-              <Grid.Col span={4}>
-                <Group>
-                  <Switch id={setting} styles={{ input: { cursor: 'pointer' } }} />
-                  <label htmlFor={setting}>{settingList[setting].displayName}</label>
-                </Group>
-              </Grid.Col>
-            </>
+            <Grid.Col span={4} key={setting}>
+              <Group>
+                <Switch id={`${mode}-${setting}`} />
+                <label htmlFor={`${mode}-${setting}`}>{settingList[setting].displayName}</label>
+              </Group>
+            </Grid.Col>
           )
         );
       })}

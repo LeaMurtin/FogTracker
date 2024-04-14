@@ -1,5 +1,6 @@
-import { Group, Input, Image, Tabs, Box, Button } from '@mantine/core';
-import SettingsPanel from './components/Settings';
+import { Group, Image, Tabs, Box, Button } from '@mantine/core';
+import SettingsPanel from './components/SettingsPanel';
+import SettingStringInput from './components/SettingStringInput';
 
 export default function SettingsPage() {
   return (
@@ -7,7 +8,7 @@ export default function SettingsPage() {
       <Image radius="md" src={null} h={100} fallbackSrc="https://placehold.co/600x400?text=Placeholder" />
       <Box mt="md">
         <Group justify="center">
-          Setting string <Input w={1250} />
+          Setting string <SettingStringInput />
         </Group>
         <Tabs defaultValue="shuffle" mt="md">
           <Tabs.List grow>
