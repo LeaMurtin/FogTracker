@@ -1,5 +1,5 @@
-import { Group, Input, Image, Tabs, Box } from '@mantine/core';
-import Settings from './components/Settings';
+import { Group, Input, Image, Tabs, Box, Button } from '@mantine/core';
+import SettingsPanel from './components/Settings';
 
 export default function SettingsPage() {
   return (
@@ -15,12 +15,16 @@ export default function SettingsPage() {
             <Tabs.Tab value="crawl">Dungeon Crawl</Tabs.Tab>
           </Tabs.List>
           <Tabs.Panel value="shuffle">
-            <Settings mode="shuffle" />
+            <SettingsPanel mode="shuffle" />
           </Tabs.Panel>
           <Tabs.Panel value="crawl">
-            <Settings mode="crawl" />
+            <SettingsPanel mode="crawl" />
           </Tabs.Panel>
         </Tabs>
+        <Group justify="center">
+          <Button>Launch (English)</Button>
+          <Button>Lancer (Français)</Button>
+        </Group>
       </Box>
     </>
   );
