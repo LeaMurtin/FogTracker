@@ -5,7 +5,7 @@ import SettingsPage from './Settings.page';
 
 const theme = createTheme({
   cursorType: 'pointer',
-  defaultRadius: 'md',
+  defaultRadius: 'lg',
 });
 
 function App() {
