@@ -7,7 +7,7 @@ export default [
   { languageOptions: { globals: globals.browser } },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
-  pluginReactConfig,
+  { ...pluginReactConfig, settings: { react: { version: 'detect' } } },
   {
     rules: {
       curly: 'error',
@@ -15,7 +15,6 @@ export default [
       'eol-last': 'error',
       eqeqeq: ['error', 'always', { null: 'ignore' }],
       'guard-for-in': 'off',
-      'jsdoc/check-alignment': 'error',
       'new-parens': 'error',
       'no-array-constructor': 'error',
       'no-bitwise': 'off',
@@ -67,7 +66,6 @@ export default [
           },
         },
       ],
-      'react-hooks/exhaustive-deps': 'error',
     },
   },
 ];
