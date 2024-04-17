@@ -1,74 +1,74 @@
 {
-	"entrances": {
-		"00001": {
-			"description": "before Grafted Scion's arena",
-			"panel": "Chapel of Anticipation",
-			"areaFrom": "Chapel of Anticipation",
-			"areaTo": "Grafted Scion's Arena",
-			"alias": "before Grafted Scion",
-			"oneWay": false,
-			"oneWayCategory": "",
-			"reverseId": "00003",
-			"type": ["worldshuffle", "dungeoncrawl"],
-			"setting": "majorbosses",
-			"accessTo": [],
-			"shuffled": true
-		},
-		"00002": {
-			"description": "using the Pureblood Knight's Medal from anywhere",
-			"panel": "Warps",
-			"areaFrom": "",
-			"areaTo": "Mohgwyn Palace",
-			"alias": "Pureblood Knight's Medal",
-			"oneWay": true,
-			"oneWayCategory": "Items",
-			"reverseId": "",
-			"type": ["worldshuffle", "dungeoncrawl"],
-			"setting": "critical",
-			"accessTo": [],
-			"shuffled": true
-		},
-		"00003": {
-			"description": "at the front of Grafted Scion's arena",
-			"panel": "Chapel of Anticipation",
-			"areaFrom": "Grafted Scion's Arena",
-			"areaTo": "Chapel of Anticipation",
-			"alias": "Grafted Scion front exit",
-			"oneWay": false,
-			"oneWayCategory": "",
-			"reverseId": "00001",
-			"type": ["worldshuffle", "dungeoncrawl"],
-			"setting": "req_belfries",
-			"accessTo": ["00004"],
-			"shuffled": true
-		},
-		"00004": {
-			"description": "at the side exit of Grafted Scion's arena",
-			"panel": "Chapel of Anticipation",
-			"areaFrom": "Grafted Scion's Arena",
-			"areaTo": "Chapel of Anticipation revisit",
-			"alias": "Grafted Scion side exit",
-			"oneWay": false,
-			"oneWayCategory": "",
-			"reverseId": "00005",
-			"type": "worldshuffle",
-			"setting": "req_belfries",
-			"accessTo": ["00003"],
-			"shuffled": true
-		},
-		"00005": {
-			"description": "after Grafted Scion's arena",
-			"panel": "Chapel of Anticipation",
-			"areaFrom": "Chapel of Anticipation revisit",
-			"areaTo": "Grafted Scion's Arena",
-			"alias": "after Grafted Scion",
-			"oneWay": false,
-			"oneWayCategory": "",
-			"reverseId": "00004",
-			"type": "worldshuffle",
-			"setting": "req_belfries",
-			"accessTo": [],
-			"shuffled": true
-		}
-	}
+  "entrances": {
+    "00001": {
+      "description": "before Grafted Scion's arena",
+      "panel": "Chapel of Anticipation",
+      "areaFrom": "Chapel of Anticipation",
+      "areaTo": "Grafted Scion's Arena",
+      "alias": "before Grafted Scion",
+      "oneWay": false,
+      "oneWayCategory": "",
+      "reverseId": "00003",
+      "type": ["worldshuffle", "dungeoncrawl"],
+      "setting": "majorbosses",
+      "accessTo": [],
+      "shuffled": true
+    },
+    "00002": {
+      "description": "using the Pureblood Knight's Medal from anywhere",
+      "panel": "Warps",
+      "areaFrom": "",
+      "areaTo": "Mohgwyn Palace",
+      "alias": "Pureblood Knight's Medal",
+      "oneWay": true,
+      "oneWayCategory": "Items",
+      "reverseId": "",
+      "type": ["worldshuffle", "dungeoncrawl"],
+      "setting": "critical",
+      "accessTo": [],
+      "shuffled": true
+    },
+    "00003": {
+      "description": "at the front of Grafted Scion's arena",
+      "panel": "Chapel of Anticipation",
+      "areaFrom": "Grafted Scion's Arena",
+      "areaTo": "Chapel of Anticipation",
+      "alias": "Grafted Scion front exit",
+      "oneWay": false,
+      "oneWayCategory": "",
+      "reverseId": "00001",
+      "type": ["worldshuffle", "dungeoncrawl"],
+      "setting": "req_belfries",
+      "accessTo": ["00004"],
+      "shuffled": true
+    },
+    "00004": {
+      "description": "at the side exit of Grafted Scion's arena",
+      "panel": "Chapel of Anticipation",
+      "areaFrom": "Grafted Scion's Arena",
+      "areaTo": "Chapel of Anticipation revisit",
+      "alias": "Grafted Scion side exit",
+      "oneWay": false,
+      "oneWayCategory": "",
+      "reverseId": "00005",
+      "type": "worldshuffle",
+      "setting": "req_belfries",
+      "accessTo": ["00003"],
+      "shuffled": true
+    },
+    "00005": {
+      "description": "after Grafted Scion's arena",
+      "panel": "Chapel of Anticipation",
+      "areaFrom": "Chapel of Anticipation revisit",
+      "areaTo": "Grafted Scion's Arena",
+      "alias": "after Grafted Scion",
+      "oneWay": false,
+      "oneWayCategory": "",
+      "reverseId": "00004",
+      "type": "worldshuffle",
+      "setting": "req_belfries",
+      "accessTo": [],
+      "shuffled": true
+    }
+  }
 }
