@@ -9,6 +9,7 @@ interface Props {
 }
 
 const SettingsPanel: React.FC<Props> = ({ settingValues, setSettingValues, mode }) => {
+  console.log(settingValues);
   return (
     <Grid p="xl">
       {Object.keys(settingList).map((setting) => {

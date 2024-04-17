@@ -1,5 +1,6 @@
 import { Group, Image, Tabs, Box, Button, TextInput } from '@mantine/core';
 import { useEffect, useState } from 'react';
+import { isEqual } from 'lodash';
 import SettingsPanel from './components/SettingsPanel';
 import settingList from './settingList';
 
@@ -24,7 +25,10 @@ export default function SettingsPage() {
         newSettingValues[`${mode}-${setting}`] = true;
       }
     });
-    setSettingValues(newSettingValues);
+    if (!isEqual(settingValues, newSettingValues)) {
+      console.log('COUCOU MAMAN JE PASSE A LA TELE');
+      setSettingValues(newSettingValues);
+    }
   }, [settingString]);
 
   useEffect(() => {
@@ -42,12 +46,15 @@ export default function SettingsPage() {
       }
     });
     for (const setting in settingList) {
-      if (settingValues.hasOwnProperty(`${mode}-${setting}`) && settingValues[`${mode}-${setting}`] && !newSettings.includes(setting)) {
+      if (settingValues[`${mode}-${setting}`] && !newSettings.includes(setting)) {
         newSettings.push(setting);
       }
     }
-    const newSettingString = newSettings.join(' ');
-    setSettingString(newSettingString);
+    if (!isEqual(parsedSettings, newSettings)) {
+      console.log('LE PLUS BEAU CEST WIWI');
+      const newSettingString = newSettings.join(' ');
+      setSettingString(newSettingString);
+    }
   }, [settingValues]);
 
   return (
