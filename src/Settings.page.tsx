@@ -1,6 +1,7 @@
 import { Group, Image, Tabs, Box, Button, TextInput } from '@mantine/core';
-import SettingsPanel from './components/SettingsPanel';
 import { useEffect, useState } from 'react';
+import SettingsPanel from './components/SettingsPanel';
+import settingList from './settingList';
 
 export default function SettingsPage() {
   const [settingString, setSettingString] = useState('');
@@ -8,15 +9,45 @@ export default function SettingsPage() {
 
   useEffect(() => {
     // parse all settings from string
-    // si ya un setting qui est different entre string et values, setState values
-    const newSettingValues = {};
-    // ...
-    setSettingValues({ ...settingValues, ...newSettingValues });
+    // check for invalid string and extract values
+    // setState new set of values
+    const parsedSettings = settingString.split(' ');
+    const newSettingValues: Record<string, boolean> = {};
+    const shuffle = parsedSettings.includes('shuffle');
+    const crawl = parsedSettings.includes('crawl');
+    if (shuffle === crawl ) {
+      // TODO : envoyer message d'erreur <INVALID SETTING STRING>
+    }
+    const mode = shuffle ? 'shuffle' : 'crawl';
+    parsedSettings.forEach(setting => {
+      if (settingList[setting]) {
+        newSettingValues[`${mode}-${setting}`] = true;
+      }
+    });
+    setSettingValues(newSettingValues);
   }, [settingString]);
 
   useEffect(() => {
     // parse all settings from string
     // si ya un setting qui est different entre string et values, setState string
+    const parsedSettings = settingString.split(' ');
+    let newSettings: string[] = [];
+    const mode = 'shuffle'; //detecter tab actif
+    parsedSettings.forEach(setting => {
+      if (!settingList[setting]) {
+        newSettings.push(setting);
+      } else 
+      if (settingList[setting] && settingValues[`${mode}-${setting}`]) {
+        newSettings.push(setting);
+      }
+    });
+    for (const setting in settingList) {
+      if (settingValues.hasOwnProperty(`${mode}-${setting}`) && settingValues[`${mode}-${setting}`] && !newSettings.includes(setting)) {
+        newSettings.push(setting);
+      }
+    }
+    const newSettingString = newSettings.join(' ');
+    setSettingString(newSettingString);
   }, [settingValues]);
 
   return (
@@ -26,6 +57,7 @@ export default function SettingsPage() {
         <Group justify="center">
           Setting string
           <TextInput
+            size="xs"
             placeholder="Copy your string from the fog randomizer program"
             w="90vw"
             value={settingString}
