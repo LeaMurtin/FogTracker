@@ -1,15 +1,15 @@
 import { Grid, Group, Switch } from '@mantine/core';
 import React from 'react';
 import settingList from '../settingList';
+import { ReactSetter } from '../types';
 
 interface Props {
   settingValues: Record<string, boolean>;
-  setSettingValues: (values: Record<string, boolean>) => void;
+  setSettingValues: ReactSetter<Record<string, boolean>>;
   mode: 'shuffle' | 'crawl';
 }
 
 const SettingsPanel: React.FC<Props> = ({ settingValues, setSettingValues, mode }) => {
-  console.log(settingValues);
   return (
     <Grid p="xl">
       {Object.keys(settingList).map((setting) => {

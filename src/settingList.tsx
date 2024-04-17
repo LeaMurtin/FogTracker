@@ -1,4 +1,6 @@
-const settingList: any = {
+import { SettingListType } from './types';
+
+const settingList: SettingListType = {
   req_underground: {
     displayName: 'Underground cities',
     mode: ['shuffle', 'crawl'],

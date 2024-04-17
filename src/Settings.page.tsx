@@ -1,8 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { Group, Image, Tabs, Box, Button, TextInput } from '@mantine/core';
-import { isEqual } from 'lodash';
+import _ from 'lodash';
 import SettingsPanel from './components/SettingsPanel';
 import settingList from './settingList';
+
+function getDefaultSettings(mode: 'shuffle' | 'crawl' = 'shuffle') {
+  const defaultSettings: Record<string, boolean> = {};
+  for (const setting in settingList) {
+    defaultSettings[mode + '-' + setting] = false;
+  }
+  return defaultSettings;
+}
 
 function compareArrayValues(a: string[], b: string[]) {
   if (a.length !== b.length) {
@@ -12,38 +20,38 @@ function compareArrayValues(a: string[], b: string[]) {
 }
 
 const SettingsPage: React.FC = () => {
+  const defaultMode = 'shuffle';
   const [settingString, setSettingString] = useState('');
-  const [settingValues, setSettingValues] = useState<Record<string, boolean>>({});
+  const [settingValues, setSettingValues] = useState<Record<string, boolean>>(getDefaultSettings(defaultMode));
 
   useEffect(() => {
     // parse all settings from string
     // check for invalid string and extract values
     // setState new set of values
     const parsedSettings = settingString.split(' ');
-    const newSettingValues: Record<string, boolean> = {};
     const shuffle = parsedSettings.includes('shuffle');
     const crawl = parsedSettings.includes('crawl');
     if (shuffle === crawl) {
       // TODO : envoyer message d'erreur <INVALID SETTING STRING>
-      return;
+      // return;
     }
-    const mode = shuffle ? 'shuffle' : 'crawl';
+    const mode = 'shuffle';
+    const newSettingValues: Record<string, boolean> = getDefaultSettings(mode);
+    // const mode = shuffle ? 'shuffle' : 'crawl';
     parsedSettings.forEach((setting) => {
       if (settingList[setting]) {
         newSettingValues[`${mode}-${setting}`] = true;
       }
     });
-    console.log(settingValues, newSettingValues);
-    if (!isEqual(settingValues, newSettingValues)) {
-      console.log('COUCOU MAMAN JE PASSE A LA TELE');
-      setSettingValues(newSettingValues);
+    if (!_.isEqual(settingValues, newSettingValues)) {
+      setSettingValues({ ...newSettingValues });
     }
   }, [settingString]);
 
   useEffect(() => {
     // parse all settings from string
     // si ya un setting qui est different entre string et values, setState string
-    const parsedSettings = settingString.split(' ');
+    const parsedSettings = settingString.split(' ').filter(Boolean);
     const newSettings: string[] = [];
     const mode = 'shuffle'; //detecter tab actif
     parsedSettings.forEach((setting) => {
@@ -59,7 +67,6 @@ const SettingsPage: React.FC = () => {
       }
     }
     if (!compareArrayValues(newSettings, parsedSettings)) {
-      // console.log("LE PLUS BEAU CEST WIWI");
       const newSettingString = newSettings.join(' ');
       setSettingString(newSettingString);
     }
