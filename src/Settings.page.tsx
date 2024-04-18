@@ -23,21 +23,24 @@ const SettingsPage: React.FC = () => {
   const defaultMode = 'shuffle';
   const [settingString, setSettingString] = useState('');
   const [settingValues, setSettingValues] = useState<Record<string, boolean>>(getDefaultSettings(defaultMode));
-
+  const [activeTab, setActiveTab] = useState<string | null>('shuffle');
+  
   useEffect(() => {
     // parse all settings from string
     // check for invalid string and extract values
     // setState new set of values
-    const parsedSettings = settingString.split(' ');
+    const parsedSettings = settingString.split(' ').filter(Boolean);
     const shuffle = parsedSettings.includes('shuffle');
     const crawl = parsedSettings.includes('crawl');
+    // console.log('#1 // parsedSettings:', parsedSettings, 'shuffle=', shuffle, 'crawl=', crawl);
     if (shuffle === crawl) {
       // TODO : envoyer message d'erreur <INVALID SETTING STRING>
+      console.log('ERROR Mode value');
       // return;
     }
-    const mode = 'shuffle';
+    // const mode = 'shuffle';
+    const mode = shuffle ? 'shuffle' : 'crawl';
     const newSettingValues: Record<string, boolean> = getDefaultSettings(mode);
-    // const mode = shuffle ? 'shuffle' : 'crawl';
     parsedSettings.forEach((setting) => {
       if (settingList[setting]) {
         newSettingValues[`${mode}-${setting}`] = true;
@@ -52,10 +55,11 @@ const SettingsPage: React.FC = () => {
     // parse all settings from string
     // si ya un setting qui est different entre string et values, setState string
     const parsedSettings = settingString.split(' ').filter(Boolean);
-    const newSettings: string[] = [];
-    const mode = 'shuffle'; //detecter tab actif
+    const mode = (activeTab === null) ? 'shuffle' : activeTab;
+    // console.log('#2 // parsedSettings:', parsedSettings, mode);
+    const newSettings: string[] = [mode];
     parsedSettings.forEach((setting) => {
-      if (!settingList[setting]) {
+      if (!settingList[setting] && setting !== 'shuffle' && setting !== 'crawl') {
         newSettings.push(setting);
       } else if (settingList[setting] && settingValues[`${mode}-${setting}`]) {
         newSettings.push(setting);
@@ -66,11 +70,12 @@ const SettingsPage: React.FC = () => {
         newSettings.push(setting);
       }
     }
+    // console.log('#2 // newSettings:', newSettings);
     if (!compareArrayValues(newSettings, parsedSettings)) {
       const newSettingString = newSettings.join(' ');
       setSettingString(newSettingString);
     }
-  }, [settingValues]);
+  }, [settingValues, activeTab]);
 
   return (
     <>
@@ -86,7 +91,7 @@ const SettingsPage: React.FC = () => {
             onChange={(event) => setSettingString(event.currentTarget.value)}
           />
         </Group>
-        <Tabs defaultValue="shuffle" mt="md">
+        <Tabs value={activeTab} onChange={setActiveTab}>
           <Tabs.List grow>
             <Tabs.Tab value="shuffle">World Shuffle</Tabs.Tab>
             <Tabs.Tab value="crawl">Dungeon Crawl</Tabs.Tab>
