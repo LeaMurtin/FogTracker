@@ -2,6 +2,7 @@ import './App.css';
 import '@mantine/core/styles.css';
 import { MantineProvider, createTheme } from '@mantine/core';
 import SettingsPage from './Settings.page';
+import MainPage from './Main.page';
 
 const theme = createTheme({
   cursorType: 'pointer',
@@ -12,6 +13,7 @@ function App() {
   return (
     <MantineProvider theme={theme} forceColorScheme="dark">
       <SettingsPage />
+      {/* <MainPage /> */}
     </MantineProvider>
   );
 }

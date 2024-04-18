@@ -1,5 +1,6 @@
-import { AppShell, Burger, CSSProperties, Flex, Stack, Switch, SwitchStylesNames } from '@mantine/core';
+import { AppShell, Autocomplete, Burger, Button, CSSProperties, Flex, Stack, Switch, SwitchStylesNames, TextInput } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
+import React from 'react';
 
 const switchStyles: Partial<Record<SwitchStylesNames, CSSProperties>> = {
   label: { fontSize: 'var(--mantine-font-size-md)', padding: 0 },
@@ -7,24 +8,19 @@ const switchStyles: Partial<Record<SwitchStylesNames, CSSProperties>> = {
   body: { flexDirection: 'column-reverse', gap: 'var(--mantine-spacing-xs)' },
 };
 
-export function MainPage() {
-  const [settingsOpened, { toggle: toggleLeftSection }] = useDisclosure();
-  const [gpsOpened, { toggle: toggleRightSection }] = useDisclosure();
+const MainPage: React.FC = () => {
+  const [gpsOpened, { toggle: toggleLeftSection }] = useDisclosure();
+
+  // fake data, will be a list of all areas unlocked by player so far
+  const data = Array(100)
+  .fill(0)
+  .map((_, index) => `Option ${index}`);
 
   return (
     <AppShell
-      // layout="alt"
       header={{ height: 80 }}
       footer={{ height: 40 }}
       navbar={{
-        width: 150,
-        breakpoint: 'xs',
-        collapsed: {
-          mobile: !settingsOpened,
-          desktop: !settingsOpened,
-        },
-      }}
-      aside={{
         width: 350,
         breakpoint: 'xs',
         collapsed: {
@@ -36,24 +32,38 @@ export function MainPage() {
     >
       <AppShell.Header>
         <Flex h="100%" px="md" justify="space-between" align="center">
-          <Burger opened={settingsOpened} onClick={toggleLeftSection} size="sm" />
+          <Burger opened={gpsOpened} onClick={toggleLeftSection} size="sm" />
           <div>Header</div>
-          <Burger opened={gpsOpened} onClick={toggleRightSection} size="sm" />
         </Flex>
       </AppShell.Header>
 
       <AppShell.Navbar p="md">
         <Stack justify="center">
-          Settings
-          <Switch label="Major Bosses" styles={switchStyles} />
+          Navigation Tool
+          <Autocomplete
+            // label="You go from"
+            placeholder="Starting point"
+            data={data}
+            maxDropdownHeight={200}
+          />
+          <Autocomplete
+            // label="To"
+            placeholder="Destination"
+            data={[
+              { group: 'Limgrave', items: ['Limgrave Overworld', 'Coastal Cave'] },
+              { group: 'Liurnia', items: ['Liurnia Overworld', 'Academy Crystal cave'] },
+            ]}
+            maxDropdownHeight={200}
+          />
+          <Button>Find path</Button>
         </Stack>
       </AppShell.Navbar>
 
       <AppShell.Main>Main</AppShell.Main>
 
-      <AppShell.Aside p="md">Google Maps</AppShell.Aside>
-
       <AppShell.Footer p="xs">Footer</AppShell.Footer>
     </AppShell>
   );
-}
+};
+
+export default MainPage;

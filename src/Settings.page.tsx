@@ -77,6 +77,11 @@ const SettingsPage: React.FC = () => {
     }
   }, [settingValues, activeTab]);
 
+  const handleLaunch = () => {
+    // Open a new browser window when the button is clicked
+    window.open('/', '_blank');
+  };
+
   return (
     <>
       <Image radius="md" src={null} h={100} fallbackSrc="https://placehold.co/600x400?text=Placeholder" />
@@ -104,7 +109,7 @@ const SettingsPage: React.FC = () => {
           </Tabs.Panel>
         </Tabs>
         <Group justify="center">
-          <Button>Launch (English)</Button>
+          <Button onClick={handleLaunch}>Launch (English)</Button>
           <Button>Lancer (Français)</Button>
         </Group>
       </Box>
