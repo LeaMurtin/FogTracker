@@ -1,44 +1,44 @@
 		----------------CHAPEL OF ANTICIPATION--------------- 000
 
-		Chapel of Anticipation
+	001	Chapel of Anticipation
 		00001. before Grafted Scion's arena
 		00002. using the Pureblood Knight's Medal from anywhere
-		Chapel of Anticipation - Grafted Scion
+	002	Chapel of Anticipation - Grafted Scion
 		00003. at the front of Grafted Scion's arena
 		00004. at the side exit of Grafted Scion's arena
-		Chapel of Anticipation - after Grafted Scion
+	003	Chapel of Anticipation - after Grafted Scion
 		00005. after Grafted Scion's arena
 
 			
 			----------------STRANDED GRAVEYARD---------------------- 001
 
-		Stranded Graveyard
+	004	Stranded Graveyard
 		00101. at the exit to Limgrave
 		00102. at the door from Cave of Knowledge
 		
-		Cave of Knowledge
+	005	Cave of Knowledge
 		00103. before Soldier of Godrick's arena
 		00104. at the door to Stranded Graveyard
-		Cave of Knowledge - Soldier of Godrick
+	006	Cave of Knowledge - Soldier of Godrick
 		00105. at the front of Soldier of Godrick's arena
 		00106. at the back of Soldier of Godrick's arena
-		Cave of Knowledge - After Soldier of Godrick
+	007	Cave of Knowledge - After Soldier of Godrick
 		00107. after Soldier of Godrick's arena
-		Cave of Knowledge - From Seaside Ruins
+	008	Cave of Knowledge - From Seaside Ruins
 		00108. at the back entrance from the Seaside Ruins beach
 
 			
 ---------------ROUNDTABLE HOLD------------------------------ 002
 
-	Roundtable Hold
+	009 Roundtable Hold
 00201. in Roundtable Hold in the main room
-	Roundtable Hold Balcony
+	010 Roundtable Hold Balcony
 00202. in Roundtable Hold at the balcony overlooking the first floor
 
 			
 		-----------------LIMGRAVE----------------------------- 010 + 011
 
-		Limgrave Overworld
+	011 Limgrave Overworld
 		01001. at the back entrance to Stranded Graveyard from the Seaside Ruins beach
 		01002. at the entrance from Stranded Graveyard
 		01003. at the start of Nokron from Limgrave
@@ -56,101 +56,101 @@
 		01015. using the sending gate north of Third Church of Marika
 		01016. entering Forlorn Hound Evergaol
 
-		Limgrave - Fringefolk Hero's Grave
+	012	Limgrave - Fringefolk Hero's Grave
 		01101. before Ulcerated Tree Spirit's arena
-		Limgrave - Fringefolk Hero's Grave - Ulcerated Tree Spirit
+	013	Limgrave - Fringefolk Hero's Grave - Ulcerated Tree Spirit
 		01102. at the front of Ulcerated Tree Spirit's arena
 
-		Limgrave - Groveside Cave
+	014	Limgrave - Groveside Cave
 		01103. at the entrance from Limgrave
 		01104. before Beastman of Farum Azula's arena
-		Limgrave - Groveside Cave - Beastman of Farum Azula
+	015	Limgrave - Groveside Cave - Beastman of Farum Azula
 		01105. at the front of Beastman of Farum Azula's arena
 
-		Limgrave - Coastal Cave
+	016	Limgrave - Coastal Cave
 		01106. at the entrance from Limgrave
 		01107. before Demi-Human Chiefs' arena
-		Limgrave - Coastal Cave - Demi-Human Chiefs
+	017	Limgrave - Coastal Cave - Demi-Human Chiefs
 		01108. at the front of Demi-Human Chiefs' arena
 		01109. at the back of Demi-Human Chiefs' arena
-		Limgrave - Church of Dragon Communion
+	018	Limgrave - Church of Dragon Communion
 		01110. after Coastal Cave boss to Dragon Church
 
-		Limgrave Tunnels
+	019	Limgrave Tunnels
 		01111. at the entrance from Limgrave
 		01112. before Stonedigger Troll's arena
-		Limgrave Tunnels - Stonedigger Troll
+	020	Limgrave Tunnels - Stonedigger Troll
 		01113. at the front of Stonedigger Troll's arena
 
-		Limgrave - Stormfoot Catacombs
+	021	Limgrave - Stormfoot Catacombs
 		01114. at the entrance from Limgrave
 		01115. before Erdtree Burial Watchdog's arena
-		Limgrave - Stormfoot Catacombs - Erdtree Burial Watchdog
+	022	Limgrave - Stormfoot Catacombs - Erdtree Burial Watchdog
 		01116. at the front of Erdtree Burial Watchdog's arena
 
-		Limgrave - Murkwater Cave
+	023	Limgrave - Murkwater Cave
 		01117. at the entrance from Limgrave
 		01118. before Patches' arena
-		Limgrave - Murkwater Cave - Patches
+	024	Limgrave - Murkwater Cave - Patches
 		01119. at the front of Patches' arena
 		01120. opening the transporter chest in Patches' room
 
-		Limgrave - Murkwater Catacombs
+	025	Limgrave - Murkwater Catacombs
 		01121. at the entrance from Limgrave
 		01122. before Grave Warden Duelist's arena
-		Limgrave - Murkwater Catacombs - Grave Warden Duelist
+	026	Limgrave - Murkwater Catacombs - Grave Warden Duelist
 		01123. at the front of Grave Warden Duelist's arena
 
-		Limgrave - Highroad Cave
+	027	Limgrave - Highroad Cave
 		01124. at the entrance from Limgrave
 		01125. before Guardian Golem's arena
-		Limgrave - Highroad Cave - Guardian Golem
+	028	Limgrave - Highroad Cave - Guardian Golem
 		01126. at the front of Guardian Golem's arena
 
-		Limgrave - Waypoint Ruins - Mad Pumpkin Head
+	029	Limgrave - Waypoint Ruins - Mad Pumpkin Head
 		01127. at the front of Mad Pumpkin Head's arena
 		01128. at the back of Mad Pumpkin Head's arena
-		Limgrave - Waypoint Ruins - Sellen
+	030	Limgrave - Waypoint Ruins - Sellen
 		01129. after Mad Pumpkin Head's arena in Waypoint Ruins
 			
 
 
 -------------------------STORMHILL--------------------------- 012
 
-		Stormhill Overworld
+	031	Stormhill Overworld
 		01201. before Margit's arena
 		01202. along the side path to Liurnia, go backwards by double-jumping to a Torrent-sized nook to the left of the ruined bridge pillar
 		01203. at the entrance to Limgrave Colosseum
 		01204. at the entrance to Deathtouched Catacombs
 		01205. entering Stormhill Evergaol
 
-		Margit, the Fell Omen
+	032	Margit, the Fell Omen
 		01206. at the front of Margit's arena
 		01207. at the back of Margit's arena
 
-		Stormhill - Deathtouched Catacombs
+	033	Stormhill - Deathtouched Catacombs
 		01208. at the entrance from Stormhill
 		01209. before Black Knife Assassin's arena
-		Stormhill - Deathtouched Catacombs - Black Knife Assassin
+	034	Stormhill - Deathtouched Catacombs - Black Knife Assassin
 		01210. at the front of Black Knife Assassin's arena
 
-		Stormveil Castle before Gate
+	035	Stormveil Castle before Gate
 		01211. after Margit's arena
-		Stormveil Castle after Gate
+	036	Stormveil Castle after Gate
 		01212. before Godrick's arena
 		01213. at the side path to Limgrave Divine Tower
-		Godrick the Grafted
+	037	Godrick the Grafted
 		01214. at the front of Godrick's arena
-		Divine Tower of Limgrave
+	038	Divine Tower of Limgrave
 		01215. at the entrance from Stormveil Castle
 		01216. using the sending gate in the first half of the Divine Tower of Limgrave
-		Stormveil Castle Throne Room
+	039	Stormveil Castle Throne Room
 		01217. at the rear exit to Liurnia
 
 
 -------------WEEPING PENINSULA------------------ 013
 
-		Weeping Peninsula Overworld
+	040	Weeping Peninsula Overworld
 		01301. opening the transporter chest atop the Tower of Return
 		01302. at the entrance to Tombsward Cave
 		01303. at the entrance to Morne Tunnel
@@ -159,46 +159,46 @@
 		01306. at the entrance to Impaler's Catacombs
 		01307. entering Weeping Evergaol
 
-		Weeping Peninsula - Tombsward Cave
+	041	Weeping Peninsula - Tombsward Cave
 		01308. at the entrance from Weeping Peninsula
 		01309. before Miranda Blossom's arena
-		Weeping Peninsula - Tombsward Cave - Miranda Blossom
+	042	Weeping Peninsula - Tombsward Cave - Miranda Blossom
 		01310. at the front of Miranda Blossom's arena
 
-		Weeping Peninsula - Morne Tunnel
+	043	Weeping Peninsula - Morne Tunnel
 		01311. at the entrance from Weeping Peninsula
 		01312. before Scaly Misbegotten's arena
-		Weeping Peninsula - Morne Tunnel - Scaly Misbegotten
+	044	Weeping Peninsula - Morne Tunnel - Scaly Misbegotten
 		01313. at the front of Scaly Misbegotten's arena
 
-		Weeping Peninsula - Tombsward Catacombs
+	045	Weeping Peninsula - Tombsward Catacombs
 		01314. at the entrance from Weeping Peninsula
 		01315. before Cemetery Shade's arena
-		Weeping Peninsula - Tombsward Catacombs - Cemetery Shade
+	046	Weeping Peninsula - Tombsward Catacombs - Cemetery Shade
 		01316. at the front of Cemetery Shade's arena
 
-		Weeping Peninsula - Earthbore Cave
+	047	Weeping Peninsula - Earthbore Cave
 		01317. at the entrance from Weeping Peninsula
 		01318. before Runebear's arena
-		Weeping Peninsula - Earthbore Cave - Runebear
+	048	Weeping Peninsula - Earthbore Cave - Runebear
 		01319. at the front of Runebear's arena
 
-		Weeping Peninsula - Impaler's Catacombs
+	049	Weeping Peninsula - Impaler's Catacombs
 		01320. at the entrance from Weeping Peninsula
 		01321. before Erdtree Burial Watchdog's arena
-		Weeping Peninsula - Impaler's Catacombs - Erdtree Burial Watchdog
+	050	Weeping Peninsula - Impaler's Catacombs - Erdtree Burial Watchdog
 		01322. at the front of Erdtree Burial Watchdog's arena
 
-		Weeping Peninsula - Beside the Rampart Gaol
+	051	Weeping Peninsula - Beside the Rampart Gaol
 		01323. before Leonine Misbegotten's arena
-		Leonine Misbegotten
+	052	Leonine Misbegotten
 		01324. at the front of Leonine Misbegotten's arena
 
 
 
 -----------------LIURNIA--------------------------- 020 + 021
 
-		Liurnia Overworld
+	053	Liurnia Overworld
 		02001. along the side path from Stormhill
 		02002. at the Stormveil Castle rear exit
 		02003. using South Raya Lucaria Gate
@@ -221,92 +221,92 @@
 		02020. entering Cuckoo's Evergaol
 		02021. entering Malefactor's Evergaol
 			
-			Carian Study Hall
+		054	Carian Study Hall
 			02101. at the entrance from Liurnia
 			
-			Ruin-Strewn Precipice
+		055	Ruin-Strewn Precipice
 			02102. at the entrance from Liurnia
 			02103. before Magma Worm Makar's arena
-			Magma Wrym Makar
+		056	Magma Wrym Makar
 			02104. at the front of Magma Wyrm Makar's arena
 			02105. at the back of Magma Wyrm Makar's arena
-			After Magma Wyrm Makar
+		057	After Magma Wyrm Makar
 			02106. after Magma Worm Makar's arena
 			
-			Liurnia - Raya Lucaria Crystal Tunnel
+		058	Liurnia - Raya Lucaria Crystal Tunnel
 			02107. at the entrance from Liurnia
 			02108. before Crystalian's arena
-			Liurnia - Raya Lucaria Crystal Tunnel - Crystalian
+		059	Liurnia - Raya Lucaria Crystal Tunnel - Crystalian
 		   	02109. at the front of Crystalian's arena
 			
-			Liurnia - Road's End Catacombs
+		060	Liurnia - Road's End Catacombs
 			02110. at the entrance from Liurnia
 			02111. before Spiritcaller Snail's arena
-			Liurnia - Road's End Catacombs - Spiritcaller Snail
+		061	Liurnia - Road's End Catacombs - Spiritcaller Snail
 			02112. at the front of Spiritcaller Snail's arena
 
- 			Liurnia - Academy Crystal Cave
+ 		062	Liurnia - Academy Crystal Cave
 			02113. at the entrance from Liurnia
 			02114. before Crystallians' arena
- 			Liurnia - Academy Crystal Cave - Crystalian Duo
+ 		063	Liurnia - Academy Crystal Cave - Crystalian Duo
 			02115. at the front of Crystallians' arena
 			02116. at the back of Crystallians' arena
 
- 			Liurnia - Kingsrealm Ruins - Royal Revenant
+ 		064	Liurnia - Kingsrealm Ruins - Royal Revenant
 			02117. at the front of Royal Revenant's arena
 			02118. at the back of Royal Revenant's arena
-			Liurnia - Kingsrealm Ruins - After Boss
+		065	Liurnia - Kingsrealm Ruins - After Boss
 		   	02119. after Royal Revenant's arena in Kingsrealm Ruins
 
- 			Liurnia - Lakeside Crystal Cave
+ 		066	Liurnia - Lakeside Crystal Cave
 			02120. at the entrance from Liurnia
 			02121. before Bloodhound Knight's arena
- 			Liurnia - Lakeside Crystal Cave - Bloodhound Knight
+ 		067	Liurnia - Lakeside Crystal Cave - Bloodhound Knight
 			02122. at the back of Bloodhound Knight's arena
 			02123. at the front of Bloodhound Knight's arena
-			Liurnia - Slumbering Wolf's Shack
+		068	Liurnia - Slumbering Wolf's Shack
 			02124. after Lakeside Crystal Cave boss
 
- 			Liurnia - Stillwater Cave
+ 		069	Liurnia - Stillwater Cave
 			02125. at the entrance from Liurnia
 			02126. before Cleanrot Knight's arena
- 			Liurnia - Stillwater Cave - Cleanrot Knight
+ 		070	Liurnia - Stillwater Cave - Cleanrot Knight
 			02127. at the front of Cleanrot Knight's arena
 
- 			Liurnia - Cliffbottom Catacombs
+ 		071	Liurnia - Cliffbottom Catacombs
 			02128. at the entrance from Liurnia
 			02129. before Erdtree Burial Watchdog's arena
- 			Liurnia - Cliffbottom Catacombs - Erdtree Burial Watchdog
+ 		072	Liurnia - Cliffbottom Catacombs - Erdtree Burial Watchdog
 			02130. at the front of Erdtree Burial Watchdog's arena
 
- 			Liurnia - Black Knife Catacombs
+ 		073	Liurnia - Black Knife Catacombs
 			02131. at the entrance from Liurnia
 			02132. before Cemetery Shade's arena
 			02133. before Black Knife Assassin's arena
- 			Liurnia - Black Knife Catacombs - Cemetery Shade
+ 		074	Liurnia - Black Knife Catacombs - Cemetery Shade
 			02134. at the front of Cemetery Shade's arena
- 			Liurnia - Black Knife Catacombs - Black Knife Assassin
+ 		075	Liurnia - Black Knife Catacombs - Black Knife Assassin
 			02135. at the front of Black Knife Assassin's arena
 
- 			Royal Knight Loretta
+ 		076	Royal Knight Loretta
 			02136. at the front of Loretta's arena
 			02137. at the back of Loretta's arena
- 			Liurnia - Caria Manor
+ 		077	Liurnia - Caria Manor
 			02138. before Loretta's arena
- 			Liurnia Behind Caria Manor
+ 		078	Liurnia Behind Caria Manor
 			02139. after Loretta's arena
 			02140. entering Royal Grave Evergaol
 
- 			Divine Tower of Liurnia
+ 		079	Divine Tower of Liurnia
 			02141. opening the door at the bottom of the flipped tower
 
- 			Bellum Highway
+ 		080	Bellum Highway
 			02142. using the Dectus Medallion in Bellum Highway
 			02143. using East Raya Lucaria Gate
 
 
 -----------------RAYA LUCARIA----------------------- 022
-
+			-- find area for this one :
 			02201. using the sending gate before the elevator to Grand Library
 
 			 Academy of Raya Lucaria Main Entrance

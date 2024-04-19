@@ -12,8 +12,8 @@ const theme = createTheme({
 function App() {
   return (
     <MantineProvider theme={theme} forceColorScheme="dark">
-      <SettingsPage />
-      {/* <MainPage /> */}
+      {/* <SettingsPage /> */}
+      <MainPage />
     </MantineProvider>
   );
 }

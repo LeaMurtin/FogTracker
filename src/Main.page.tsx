@@ -1,5 +1,6 @@
 import { AppShell, Autocomplete, Burger, Button, CSSProperties, Flex, Stack, Switch, SwitchStylesNames, TextInput } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
+import { useForm } from '@mantine/form';
 import React from 'react';
 
 const switchStyles: Partial<Record<SwitchStylesNames, CSSProperties>> = {
@@ -15,6 +16,20 @@ const MainPage: React.FC = () => {
   const data = Array(100)
   .fill(0)
   .map((_, index) => `Option ${index}`);
+
+  const form = useForm({
+    mode: 'uncontrolled',
+    initialValues: {
+      start: '',
+      end: '',
+    },
+
+    validate: { //need to check if input is in the area list in local storage
+      start: (value) => (value.length < 1 ? 'Invalid starting point' : null),
+      end: (value) => (value.length < 1 ? 'Invalid destination' : null),
+    },
+
+  });
 
   return (
     <AppShell
@@ -38,25 +53,28 @@ const MainPage: React.FC = () => {
       </AppShell.Header>
 
       <AppShell.Navbar p="md">
-        <Stack justify="center">
-          Navigation Tool
-          <Autocomplete
-            // label="You go from"
-            placeholder="Starting point"
-            data={data}
-            maxDropdownHeight={200}
-          />
-          <Autocomplete
-            // label="To"
-            placeholder="Destination"
-            data={[
-              { group: 'Limgrave', items: ['Limgrave Overworld', 'Coastal Cave'] },
-              { group: 'Liurnia', items: ['Liurnia Overworld', 'Academy Crystal cave'] },
-            ]}
-            maxDropdownHeight={200}
-          />
-          <Button>Find path</Button>
-        </Stack>
+        <form onSubmit={form.onSubmit((values) => console.log(values))}>
+          <Stack justify="center" align="stretch" gap="md">
+            <Autocomplete //would like to use MultiSelect with searchable prop but ERROR
+              label="Starting Point"
+              placeholder="Limgrave overworld"
+              data={data}
+              maxDropdownHeight={200}
+              {...form.getInputProps('start')}
+            />
+            <Autocomplete //would like to use MultiSelect with searchable prop but ERROR
+              label="Destination"
+              placeholder="Malenia's Arena"
+              data={[
+                { group: 'Limgrave', items: ['Limgrave Overworld', 'Coastal Cave'] },
+                { group: 'Liurnia', items: ['Liurnia Overworld', 'Academy Crystal cave'] },
+              ]}
+              maxDropdownHeight={200}
+              {...form.getInputProps('end')}
+            />
+            <Button type="submit">Find path</Button>
+          </Stack>
+        </form>
       </AppShell.Navbar>
 
       <AppShell.Main>Main</AppShell.Main>
