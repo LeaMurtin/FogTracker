@@ -267,22 +267,21 @@ Liurnia Behind Caria Manor
 
 -----------------RAYA LUCARIA----------------------- 022
 
-02201. using the sending gate before the elevator to Grand Library
-
- Academy of Raya Lucaria Main Entrance
- 02202. using South-facing gate at Raya Lucaria Main Entrance
- 02203. using East-facing gate at Raya Lucaria Main Entrance
-  Academy of Raya Lucaria
- 02204. before Red Wolf's arena
- 02205. getting abducted at the bottom of the elevator, this requires dying in the bottom 30 meters, not above that
-  Red Wolf of Radagon
- 02206. at the front of Red Wolf's arena
- 02207. at the back left of Red Wolf's arena
- Academy of Raya Lucaria after Red Wolf
- 02208. after Red Wolf's arena
- 02209. before Rennala's arena
- 02210. on the steps to Raya Lucaria rooftops section
- Academy of Raya Lucaria - Grand Library
+Academy of Raya Lucaria Main Entrance
+02201. using South-facing gate at Raya Lucaria Main Entrance
+02202. using East-facing gate at Raya Lucaria Main Entrance
+Academy of Raya Lucaria
+02203. before Red Wolf's arena
+02204. getting abducted at the bottom of the elevator, this requires dying in the bottom 30 meters, not above that
+Red Wolf of Radagon
+02205. at the front of Red Wolf's arena
+02206. at the back left of Red Wolf's arena
+Academy of Raya Lucaria after Red Wolf
+02207. after Red Wolf's arena
+02208. before Rennala's arena
+02209. on the steps to Raya Lucaria rooftops section
+02210. using the sending gate before the elevator to Grand Library
+Academy of Raya Lucaria - Grand Library
 02211. at the front of Rennala's arena
 Academy of Raya Lucaria Rooftops
 02212. at the top of the steps before Raya Lucaria rooftops section
