@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import '@mantine/core/styles.css';
 import { MantineProvider, createTheme } from '@mantine/core';
@@ -9,13 +10,13 @@ const theme = createTheme({
   defaultRadius: 'lg',
 });
 
-function App() {
+const App: React.FC = () => {
   return (
     <MantineProvider theme={theme} forceColorScheme="dark">
       {/* <SettingsPage /> */}
       <MainPage />
     </MantineProvider>
   );
-}
+};
 
 export default App;
