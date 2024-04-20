@@ -24,7 +24,7 @@ const SettingsPage: React.FC = () => {
   const [settingString, setSettingString] = useState('');
   const [settingValues, setSettingValues] = useState<Record<string, boolean>>(getDefaultSettings(defaultMode));
   const [activeTab, setActiveTab] = useState<string | null>('shuffle');
-  
+
   useEffect(() => {
     // parse all settings from string
     // check for invalid string and extract values
@@ -55,7 +55,7 @@ const SettingsPage: React.FC = () => {
     // parse all settings from string
     // si ya un setting qui est different entre string et values, setState string
     const parsedSettings = settingString.split(' ').filter(Boolean);
-    const mode = (activeTab === null) ? 'shuffle' : activeTab;
+    const mode = activeTab === null ? 'shuffle' : activeTab;
     // console.log('#2 // parsedSettings:', parsedSettings, mode);
     const newSettings: string[] = [mode];
     parsedSettings.forEach((setting) => {
@@ -78,8 +78,10 @@ const SettingsPage: React.FC = () => {
   }, [settingValues, activeTab]);
 
   const handleLaunch = () => {
-    // Open a new browser window when the button is clicked
-    window.open('/', '_blank');
+    const windowWidth = 1507;
+    const windowHeight = 585;
+
+    window.open(`tracker`, '_blank', `width=${windowWidth},height=${windowHeight},titlebar=0,menubar=0,toolbar=0`);
   };
 
   return (
