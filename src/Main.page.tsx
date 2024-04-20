@@ -1,21 +1,20 @@
-import { AppShell, Autocomplete, Burger, Button, CSSProperties, Flex, Stack, Switch, SwitchStylesNames, TextInput } from '@mantine/core';
+import { AppShell, Autocomplete, Burger, Button, Flex, Stack } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { useForm } from '@mantine/form';
 import React from 'react';
-
-const switchStyles: Partial<Record<SwitchStylesNames, CSSProperties>> = {
-  label: { fontSize: 'var(--mantine-font-size-md)', padding: 0 },
-  track: { width: '80%', margin: 'auto' },
-  body: { flexDirection: 'column-reverse', gap: 'var(--mantine-spacing-xs)' },
-};
 
 const MainPage: React.FC = () => {
   const [gpsOpened, { toggle: toggleLeftSection }] = useDisclosure();
 
   // fake data, will be a list of all areas unlocked by player so far
   const data = Array(100)
-  .fill(0)
-  .map((_, index) => `Option ${index}`);
+    .fill(0)
+    .map((_, index) => `Option ${index}`);
+
+  const data2 = [
+    { group: 'Limgrave', items: ['Limgrave Overworld', 'Coastal Cave'] },
+    { group: 'Liurnia', items: ['Liurnia Overworld', 'Academy Crystal cave'] },
+  ];
 
   const form = useForm({
     mode: 'uncontrolled',
@@ -24,11 +23,30 @@ const MainPage: React.FC = () => {
       end: '',
     },
 
-    validate: { //need to check if input is in the area list in local storage
-      start: (value) => (value.length < 1 ? 'Invalid starting point' : null),
-      end: (value) => (value.length < 1 ? 'Invalid destination' : null),
+    validate: {
+      //need to check if input is in the area list in local storage
+      // start: (value) => (value.length < 1 ? 'Invalid starting point' : null),
+      // end: (value) => (value.length < 1 ? 'Invalid destination' : null),
+      start: (value) => {
+        if (value.length < 1) {
+          return 'Please enter a value';
+        }
+        if (data.find((option) => option.toLowerCase() === value.toLowerCase())) {
+          return null;
+        }
+        return 'Invalid starting point';
+      },
+      end: (value) => {
+        if (value.length < 1) {
+          return 'Please enter a value';
+        }
+        const items = data2.map((elem) => elem.items).flat();
+        if (items.find((option) => option.toLowerCase() === value.toLowerCase())) {
+          return null;
+        }
+        return 'Invalid destination';
+      },
     },
-
   });
 
   return (
@@ -65,10 +83,7 @@ const MainPage: React.FC = () => {
             <Autocomplete //would like to use MultiSelect with searchable prop but ERROR
               label="Destination"
               placeholder="Malenia's Arena"
-              data={[
-                { group: 'Limgrave', items: ['Limgrave Overworld', 'Coastal Cave'] },
-                { group: 'Liurnia', items: ['Liurnia Overworld', 'Academy Crystal cave'] },
-              ]}
+              data={data2}
               maxDropdownHeight={200}
               {...form.getInputProps('end')}
             />
