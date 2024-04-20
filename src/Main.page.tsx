@@ -52,8 +52,13 @@ const MainPage: React.FC = () => {
   useEffect(() => {
     // read url params
     const url = new URL(window.location.href);
+    const settingsRaw = url.searchParams.get('settings');
+    if (!settingsRaw) {
+      return;
+    }
     const language = url.searchParams.get('lg');
-    const settings = url.searchParams.get('settings');
+    const settings = JSON.parse(settingsRaw);
+    console.log('settings', settings);
   }, []);
 
   return (

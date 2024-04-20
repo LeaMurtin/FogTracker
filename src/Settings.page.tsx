@@ -35,8 +35,8 @@ const SettingsPage: React.FC = () => {
     // console.log('#1 // parsedSettings:', parsedSettings, 'shuffle=', shuffle, 'crawl=', crawl);
     if (shuffle === crawl) {
       // TODO : envoyer message d'erreur <INVALID SETTING STRING>
-      console.log('ERROR Mode value');
-      // return;
+      // console.log('ERROR Mode value');
+      return;
     }
     // const mode = 'shuffle';
     const mode = shuffle ? 'shuffle' : 'crawl';
@@ -82,7 +82,7 @@ const SettingsPage: React.FC = () => {
     const windowHeight = 585;
 
     window.open(
-      `tracker?lg=${language}&settings=${settingString}`,
+      `tracker?lg=${language}&settings=${JSON.stringify(settingValues)}`,
       '_blank',
       `width=${windowWidth},height=${windowHeight},titlebar=0,menubar=0,toolbar=0`
     );
