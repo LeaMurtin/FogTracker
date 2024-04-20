@@ -1,7 +1,7 @@
 import { AppShell, Autocomplete, Burger, Button, Flex, Stack } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { useForm } from '@mantine/form';
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const MainPage: React.FC = () => {
   const [gpsOpened, { toggle: toggleLeftSection }] = useDisclosure();
@@ -48,6 +48,13 @@ const MainPage: React.FC = () => {
       },
     },
   });
+
+  useEffect(() => {
+    // read url params
+    const url = new URL(window.location.href);
+    const language = url.searchParams.get('lg');
+    const settings = url.searchParams.get('settings');
+  }, []);
 
   return (
     <AppShell

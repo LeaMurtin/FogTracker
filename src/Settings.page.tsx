@@ -77,11 +77,15 @@ const SettingsPage: React.FC = () => {
     }
   }, [settingValues, activeTab]);
 
-  const handleLaunch = () => {
+  const handleLaunch = (language: string) => {
     const windowWidth = 1507;
     const windowHeight = 585;
 
-    window.open(`tracker`, '_blank', `width=${windowWidth},height=${windowHeight},titlebar=0,menubar=0,toolbar=0`);
+    window.open(
+      `tracker?lg=${language}&settings=${settingString}`,
+      '_blank',
+      `width=${windowWidth},height=${windowHeight},titlebar=0,menubar=0,toolbar=0`
+    );
   };
 
   return (
@@ -111,8 +115,8 @@ const SettingsPage: React.FC = () => {
           </Tabs.Panel>
         </Tabs>
         <Group justify="center">
-          <Button onClick={handleLaunch}>Launch (English)</Button>
-          <Button>Lancer (Français)</Button>
+          <Button onClick={() => handleLaunch('en')}>Launch (English)</Button>
+          <Button onClick={() => handleLaunch('fr')}>Lancer (Français)</Button>
         </Group>
       </Box>
     </>
