@@ -6,3 +6,10 @@ export interface SettingListType {
     mode: Array<'shuffle' | 'crawl'>;
   };
 }
+
+export interface NodeArea {
+  name: string;
+  connections: { [gate: string]: NodeArea };
+  prev: NodeArea | null;
+  next: NodeArea | null;
+}
