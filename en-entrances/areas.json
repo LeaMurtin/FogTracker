@@ -1,0 +1,14 @@
+{
+	"chapel": {
+		"name": "Chapel of Anticipation",
+		"connections": ["00001"]
+	},
+	"chapel_boss": {
+		"name": "Grafted Scion's Arena",
+		"connections": ["00003", "00004"]
+	},
+	"chapel_after_boss": {
+		"name": "Chapel of Anticipation revisit",
+		"connections": ["00005"]
+	}
+}

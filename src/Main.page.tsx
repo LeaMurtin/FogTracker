@@ -2,6 +2,10 @@ import { AppShell, Autocomplete, Burger, Button, Flex, Stack } from '@mantine/co
 import { useDisclosure } from '@mantine/hooks';
 import { useForm } from '@mantine/form';
 import React, { useEffect } from 'react';
+import _ from 'lodash';
+import { NodeArea } from './types';
+import chapel from '../en-entrances/locations000.json';
+import graveyard from '../en-entrances/locations001.json';
 
 const MainPage: React.FC = () => {
   const [gpsOpened, { toggle: toggleLeftSection }] = useDisclosure();
@@ -48,6 +52,19 @@ const MainPage: React.FC = () => {
       },
     },
   });
+  
+  function getAreas(jsonEntrances) {
+    let areaList = [""];
+    let areas : NodeArea[] = []; 
+    Object.keys(jsonEntrances.entrances).forEach(entrance => {
+    console.log('entrance:', entrance); //entrance id
+    console.log('other:', jsonEntrances.entrances[entrance]);
+    if (!areaList.includes(jsonEntrances.entrances[entrance].areaTo)) {
+      
+    }
+   });
+   return (null);
+  }
 
   useEffect(() => {
     // read url params
@@ -59,7 +76,12 @@ const MainPage: React.FC = () => {
     const language = url.searchParams.get('lg');
     const settings = JSON.parse(settingsRaw);
     console.log('settings', settings);
+    const allEntrances = _.merge(chapel, graveyard); //faire plus propre pour les imports de json
+    console.log('extracted:', allEntrances);
+    const allAreas: NodeArea[] = getAreas(allEntrances);
+
   }, []);
+
 
   return (
     <AppShell
@@ -85,14 +107,14 @@ const MainPage: React.FC = () => {
       <AppShell.Navbar p="md">
         <form onSubmit={form.onSubmit((values) => console.log(values))}>
           <Stack justify="center" align="stretch" gap="md">
-            <Autocomplete //would like to use MultiSelect with searchable prop but ERROR
+            <Autocomplete
               label="Starting Point"
               placeholder="Limgrave overworld"
               data={data}
               maxDropdownHeight={200}
               {...form.getInputProps('start')}
             />
-            <Autocomplete //would like to use MultiSelect with searchable prop but ERROR
+            <Autocomplete
               label="Destination"
               placeholder="Malenia's Arena"
               data={data2}
